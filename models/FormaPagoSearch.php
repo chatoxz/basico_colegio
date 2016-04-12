@@ -8,9 +8,9 @@ use yii\data\ActiveDataProvider;
 use app\models\FormaPago;
 
 /**
- * DocenteSearchFormaPago represents the model behind the search form about `app\models\FormaPago`.
+ * FormaPagoSearch represents the model behind the search form about `app\models\FormaPago`.
  */
-class DocenteSearchFormaPago extends FormaPago
+class FormaPagoSearch extends FormaPago
 {
     /**
      * @inheritdoc

@@ -4,7 +4,7 @@ namespace app\controllers;
 
 use Yii;
 use app\models\FormaPago;
-use app\models\DocenteSearchFormaPago;
+use app\models\FormaPagoSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -32,7 +32,7 @@ class FormaPagoController extends Controller
      */
     public function actionIndex()
     {
-        $searchModel = new DocenteSearchFormaPago();
+        $searchModel = new FormaPagoSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
