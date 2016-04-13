@@ -10,7 +10,7 @@ class User extends \yii\base\Object implements \yii\web\IdentityInterface
     public $authKey;
     public $accessToken;
 
-    private static $users = [
+    /*private static $users = [
         '100' => [
             'id' => '100',
             'username' => 'admin',
@@ -25,7 +25,19 @@ class User extends \yii\base\Object implements \yii\web\IdentityInterface
             'authKey' => 'test101key',
             'accessToken' => '101-token',
         ],
-    ];
+    ];*/
+
+    public static function isUserAdmin($id)
+    {
+        if (Users::findOne(['id' => $id, 'activate' => '1', 'role' => 2])){
+            return true;
+        } else {
+
+            return false;
+        }
+    }
+
+
 
     /**
      * @inheritdoc
