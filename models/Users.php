@@ -13,7 +13,9 @@ use Yii;
  * @property string $authKey
  * @property string $accessToken
  * @property integer $activate
- * @property integer $role
+ * @property integer $id_rol
+ *
+ * @property Rol $idRol
  */
 class Users extends \yii\db\ActiveRecord
 {
@@ -31,7 +33,8 @@ class Users extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['activate', 'role'], 'integer'],
+            [['username', 'password', 'authKey', 'accessToken'], 'required'],
+            [['activate', 'id_rol'], 'integer'],
             [['username'], 'string', 'max' => 50],
             [['password', 'authKey', 'accessToken'], 'string', 'max' => 250]
         ];
@@ -49,7 +52,15 @@ class Users extends \yii\db\ActiveRecord
             'authKey' => 'Auth Key',
             'accessToken' => 'Access Token',
             'activate' => 'Activate',
-            'role' => 'Role',
+            'id_rol' => 'Id Rol',
         ];
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getIdRol()
+    {
+        return $this->hasOne(Rol::className(), ['id_rol' => 'id_rol']);
     }
 }
