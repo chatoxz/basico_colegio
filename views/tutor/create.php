@@ -12,7 +12,7 @@ $this->params['breadcrumbs'][] = $persona->nombre;
 ?>
 <div class="tutor-create">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h1>Nuevo Tutor</h1>
 
     <?= $this->render('_form', ['persona' => $persona,'tutor' => $tutor,]) ?>
 
