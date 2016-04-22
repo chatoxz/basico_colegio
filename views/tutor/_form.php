@@ -29,7 +29,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($persona, 'fecha_nacimiento')->textInput() ?>
 
-    <?= $form->field($persona, 'foto')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($persona, 'foto')->fileInput() ?>
 
     <?= $form->field($persona, 'localidad')->textInput(['maxlength' => true]) ?>
 
@@ -49,9 +49,8 @@ use yii\widgets\ActiveForm;
     <?= $form->field($tutor, 'relacion')->textInput(['maxlength' => true]) ?>
 
     <div class="form-group">
-        <?= Html::submitButton(( $persona->isNewRecord && $tutor->isNewRecord)? 'Create' : 'Update', ['class' => ($persona->isNewRecord && $tutor->isNewRecord) ? 'btn btn-success' : 'btn btn-primary']) ?>
+        <?= Html::submitButton(( $persona->isNewRecord )? 'Create' : 'Update', ['class' => ($persona->isNewRecord ) ? 'btn btn-success' : 'btn btn-primary']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>
-
 </div>
