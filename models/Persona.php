@@ -18,7 +18,7 @@ use Yii;
  * @property string $fecha_nacimiento
  * @property string $foto
  * @property string $localidad
- * @property string $provinicia
+ * @property string $provincia
  * @property integer $codigo_postal
  * @property string $estado_civil
  * @property string $observacion
@@ -49,7 +49,7 @@ class Persona extends \yii\db\ActiveRecord
             [['domicilio', 'observacion'], 'string', 'max' => 255],
             [['telefono', 'celular'], 'string', 'max' => 50],
             [['foto'], 'string', 'max' => 150],
-            [['localidad', 'provinicia'], 'string', 'max' => 100]
+            [['localidad', 'provincia'], 'string', 'max' => 100]
         ];
     }
 
@@ -70,7 +70,7 @@ class Persona extends \yii\db\ActiveRecord
             'fecha_nacimiento' => 'Fecha Nacimiento',
             'foto' => 'Foto',
             'localidad' => 'Localidad',
-            'provinicia' => 'Provinicia',
+            'provincia' => 'Provincia',
             'codigo_postal' => 'Codigo Postal',
             'estado_civil' => 'Estado Civil',
             'observacion' => 'Observacion',

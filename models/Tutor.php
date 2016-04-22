@@ -14,6 +14,7 @@ use Yii;
  * @property string $relacion
  *
  * @property AlumnoTutor[] $alumnoTutors
+ * @property Persona $idPersona
  */
 class Tutor extends \yii\db\ActiveRecord
 {
@@ -46,9 +47,9 @@ class Tutor extends \yii\db\ActiveRecord
         return [
             'id_tutor' => 'Id Tutor',
             'id_persona' => 'Id Persona',
-            'ocupacion' => 'Ocupacion',
-            'descripcion_ocupacion' => 'Descripcion Ocupacion',
-            'relacion' => 'Relacion',
+            'ocupacion' => 'Ocupación',
+            'descripcion_ocupacion' => 'Descripción',
+            'relacion' => 'Relación',
         ];
     }
 
@@ -58,5 +59,13 @@ class Tutor extends \yii\db\ActiveRecord
     public function getAlumnoTutors()
     {
         return $this->hasMany(AlumnoTutor::className(), ['id_tutor' => 'id_tutor']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getIdPersona()
+    {
+        return $this->hasOne(Persona::className(), ['id_persona' => 'id_persona']);
     }
 }

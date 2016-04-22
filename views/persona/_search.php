@@ -37,7 +37,7 @@ use yii\widgets\ActiveForm;
 
     <?php // echo $form->field($model, 'localidad') ?>
 
-    <?php // echo $form->field($model, 'provinicia') ?>
+    <?php // echo $form->field($model, 'provincia') ?>
 
     <?php // echo $form->field($model, 'codigo_postal') ?>
 

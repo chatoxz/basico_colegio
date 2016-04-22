@@ -4,19 +4,20 @@ use yii\helpers\Html;
 use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
-/* @var $model app\models\Tutor */
+/* @var $tutor app\models\Tutor */
+/* @var $persona app\models\Persona */
 
-$this->title = $model->id_tutor;
+$this->title = $persona->nombre;
 $this->params['breadcrumbs'][] = ['label' => 'Tutors', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="tutor-view">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+    <h1><?= Html::encode("Detalle Tutor") ?></h1>
 
     <p>
-        <?= Html::a('Update', ['update', 'id_tutor' => $model->id_tutor, 'id_persona' => $model->id_persona], ['class' => 'btn btn-primary']) ?>
-        <?= Html::a('Delete', ['delete', 'id_tutor' => $model->id_tutor, 'id_persona' => $model->id_persona], [
+        <?= Html::a('Update', ['update', 'id_tutor' => $tutor->id_tutor, 'id_persona' => $tutor->id_persona], ['class' => 'btn btn-primary']) ?>
+        <?= Html::a('Delete', ['delete', 'id_tutor' => $tutor->id_tutor, 'id_persona' => $tutor->id_persona], [
             'class' => 'btn btn-danger',
             'data' => [
                 'confirm' => 'Are you sure you want to delete this item?',
@@ -26,14 +27,35 @@ $this->params['breadcrumbs'][] = $this->title;
     </p>
 
     <?= DetailView::widget([
-        'model' => $model,
+        'model' => $tutor,
         'attributes' => [
-            'id_tutor',
-            'id_persona',
+            //'id_tutor',
+            //'id_persona',
             'ocupacion',
             'descripcion_ocupacion',
             'relacion',
         ],
     ]) ?>
 
+    <h1><?= Html::encode("Descripcion Persona") ?></h1>
+    <?= DetailView::widget([
+        'model' => $persona,
+        'attributes' => [
+            //'id_persona',
+            'nombre',
+            'apellido',
+            'documento',
+            'tipo_documento',
+            'domicilio',
+            'telefono',
+            'celular',
+            'fecha_nacimiento',
+            'foto',
+            'localidad',
+            'provincia',
+            'codigo_postal',
+            'estado_civil',
+            'observacion',
+        ],
+    ]) ?>
 </div>

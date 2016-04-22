@@ -23,7 +23,7 @@ class UsersController extends Controller
         return [
             'access' => [
                 'class' => AccessControl::className(),
-                'only' => ['view','update','_form','_search','index'],
+                'only' => ['view','update','_form','index'],
                 'rules' => [
                     [
                         //El administrador tiene permisos sobre las siguientes acciones

@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\UsersSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Users';
+$this->title = 'Usuarios';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="users-index">
@@ -25,7 +25,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'id',
+            //'id',
             'username',
             //'password',
             //'authKey',
@@ -35,6 +35,7 @@ $this->params['breadcrumbs'][] = $this->title;
             [
                 //hace referencia a  public function attributeLabels()
                 'attribute'=>'id_rol',
+                'label'=>'Rol',
                 'value'=>'idRol.nombre',
             ],
 

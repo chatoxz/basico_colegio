@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel app\models\TutorSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Tutors';
+$this->title = 'Tutores';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="tutor-index">
@@ -24,9 +24,14 @@ $this->params['breadcrumbs'][] = $this->title;
         'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
-
-            'id_tutor',
-            'id_persona',
+            //'id_tutor',
+            //'id_persona',
+            [
+                //hace referencia a  public function attributeLabels()
+                'attribute'=>'id_persona',
+                'label'=>'Nombre',
+                'value'=>'idPersona.nombre',
+            ],
             'ocupacion',
             'descripcion_ocupacion',
             'relacion',

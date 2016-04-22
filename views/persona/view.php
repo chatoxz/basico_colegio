@@ -39,7 +39,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'fecha_nacimiento',
             'foto',
             'localidad',
-            'provinicia',
+            'provincia',
             'codigo_postal',
             'estado_civil',
             'observacion',
