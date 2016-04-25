@@ -32,7 +32,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'localidad')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'provinicia')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'provincia')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'codigo_postal')->textInput() ?>
 
