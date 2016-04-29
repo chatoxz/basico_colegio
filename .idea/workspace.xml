@@ -2,254 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31e0d29-6c21-4f19-9914-946f1521dee2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/demo_head.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/markup_component.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/markup_daterange.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/markup_inline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/markup_input.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/option_calendarweeks.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/option_clearbtn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/option_daysofweekdisabled.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/option_enddate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/option_language.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/option_multidate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/option_startdate.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/option_todaybtn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/option_todayhighlight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/option_weekstart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/less/.csslintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/.jscsrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/grunt/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/keyboard_navigation/2011.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/mouse_navigation/2011.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/keyboard_navigation/2012.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/mouse_navigation/2012.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/src/DatePicker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/src/DatePickerAsset.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/src/DatePickerLanguageAsset.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/src/DatePickerTrait.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/src/DateRangePicker.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/src/DateRangePickerAsset.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/Gruntfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/InputFile.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/Makefile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/keyboard_navigation/all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/mouse_navigation/all.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.ar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ar.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.az.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.az.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.bg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.bg.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.bs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.bs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.ca.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ca.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.cs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.cs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/css/bootstrap-datepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.cy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.cy.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.da.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.da.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.de.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.de.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.el.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.el.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.en-GB.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.en-GB.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.es.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.es.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.et.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.et.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.eu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.eu.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.fa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fa.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.fi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fi.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.fo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fo.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.fr-CH.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fr-CH.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.fr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.gl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.gl.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.he.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.he.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.hr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.hr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.hu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.hu.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.hy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.hy.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.id.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.id.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.is.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.is.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.it-CH.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.it-CH.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.it.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.it.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.ja.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ja.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/js/bootstrap-datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/bootstrap-datepicker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.ka.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ka.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.kh.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.kh.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.kk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.kk.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.kr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.kr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.lt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.lt.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.lv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.lv.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.me.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.me.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.mk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.mk.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.ms.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ms.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.nb.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.nb.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.nl-BE.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.nl-BE.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.nl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.nl.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.no.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.no.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.pl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.pl.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt-BR.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.pt-BR.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.pt.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.ro.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ro.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs-latin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.rs-latin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.rs.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.ru.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ru.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.sk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sk.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.sl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sl.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.sq.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sq.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.sr-latin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sr-latin.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.sr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/css/bootstrap-datepicker.standalone.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/css/bootstrap-datepicker.standalone.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.sv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sv.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.sw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sw.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.th.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.th.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.tr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.tr.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.uk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.uk.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.vi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.vi.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-CN.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-CN.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-TW.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-TW.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/css/bootstrap-datepicker3.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/css/bootstrap-datepicker3.standalone.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/css/bootstrap-datepicker3.standalone.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/src/assets/css/bootstrap-daterangepicker.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/build/build.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/build/build3.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/build/build_standalone.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/build/build_standalone3.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/calendar-weeks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/script/common.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/script/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/component.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/conf.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/assets/coverage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/data-api.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/less/datepicker.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/less/datepicker3.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/script/debug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/demo_head.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/events.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/events.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/formats.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/script/html-imports.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/i18n.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/index.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/inline.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/assets/jquery-1.7.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/keyboard.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/make.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/markup.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/markup_component.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/markup_daterange.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/markup_inline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/markup_input.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/methods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/methods.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/assets/mock.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/noconflict.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/option_calendarweeks.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/option_clearbtn.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/option_daysofweekdisabled.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/option_enddate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/option_language.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/option_multidate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/option_startdate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/option_todaybtn.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/option_todayhighlight.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/option_weekstart.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/options.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/options.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/assets/qunit-logging.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/assets/qunit.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/assets/qunit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/requirements.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/script/screenshot.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/tests.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/assets/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/TutorController.php" afterPath="$PROJECT_DIR$/controllers/TutorController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/persona/_form.php" afterPath="$PROJECT_DIR$/views/persona/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/tutor/_form.php" afterPath="$PROJECT_DIR$/views/tutor/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/tutor/create.php" afterPath="$PROJECT_DIR$/views/tutor/create.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Accordion.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/AutoComplete.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/DatePicker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/DatePickerLanguageAsset.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Dialog.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Draggable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Droppable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/InputWidget.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/JuiAsset.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Menu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/ProgressBar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Resizable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Selectable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Slider.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/SliderInput.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Sortable.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Spinner.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Tabs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/Widget.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2-jui/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" afterPath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/persona/update.php" afterPath="$PROJECT_DIR$/views/persona/update.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/persona/view.php" afterPath="$PROJECT_DIR$/views/persona/view.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="basico_colegio.iws" />
@@ -273,14 +52,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_form.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_form.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/tutor/_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="51" selection-start="1450" selection-end="1450" vertical-scroll-proportion="1.3122807" vertical-offset="0" max-vertical-offset="1275">
+            <state line="44" column="51" selection-start="1450" selection-end="1450" vertical-scroll-proportion="-2.1538463" vertical-offset="692" max-vertical-offset="1275">
               <folding>
                 <element signature="e#7#28#0" expanded="true" />
                 <marker date="1461601999892" expanded="true" signature="2136:2195" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extensions.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/yiisoft/extensions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="50" column="25" selection-start="1508" selection-end="1508" vertical-scroll-proportion="0.008576329" vertical-offset="845" max-vertical-offset="1428">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -361,13 +149,13 @@
         <option value="$PROJECT_DIR$/views/tutor/index.php" />
         <option value="$PROJECT_DIR$/models/Tutor.php" />
         <option value="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-        <option value="$PROJECT_DIR$/vendor/yiisoft/extensions.php" />
         <option value="$PROJECT_DIR$/views/persona/update.php" />
         <option value="$PROJECT_DIR$/views/persona/view.php" />
         <option value="$PROJECT_DIR$/models/InputFile.php" />
         <option value="$PROJECT_DIR$/controllers/TutorController.php" />
         <option value="$PROJECT_DIR$/views/persona/_form.php" />
         <option value="$PROJECT_DIR$/views/tutor/_form.php" />
+        <option value="$PROJECT_DIR$/vendor/yiisoft/extensions.php" />
       </list>
     </option>
   </component>
@@ -433,7 +221,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -447,39 +235,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basico_colegio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basico_colegio" />
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tutor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basico_colegio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basico_colegio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="yiisoft" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -557,7 +317,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1296" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -776,11 +536,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/extensions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="14" selection-start="53" selection-end="53" vertical-scroll-proportion="-1.3574219" vertical-offset="763" max-vertical-offset="1275" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_psr4.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="774" selection-end="774" vertical-scroll-proportion="0.54221386" vertical-offset="0" max-vertical-offset="533" />
@@ -867,11 +622,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/tutor/_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="51" selection-start="1450" selection-end="1450" vertical-scroll-proportion="1.3122807" vertical-offset="0" max-vertical-offset="1275">
+        <state line="44" column="51" selection-start="1450" selection-end="1450" vertical-scroll-proportion="-2.1538463" vertical-offset="692" max-vertical-offset="1275">
           <folding>
             <element signature="e#7#28#0" expanded="true" />
             <marker date="1461601999892" expanded="true" signature="2136:2195" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/extensions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="25" selection-start="1508" selection-end="1508" vertical-scroll-proportion="0.008576329" vertical-offset="845" max-vertical-offset="1428">
+          <folding />
         </state>
       </provider>
     </entry>
