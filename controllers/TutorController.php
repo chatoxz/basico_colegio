@@ -10,6 +10,8 @@ use yii\base\Model;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use app\models\InputFile;
+use yii\web\UploadedFile;
 
 /**
  * TutorController implements the CRUD actions for Tutor model.
@@ -205,6 +207,32 @@ class TutorController extends Controller
         }
     }
 
+    public function guardarImagen($foto){
+        $image = $_POST['pic'];
+        //Stores the filename as it was on the client computer.
+        $imagename = $_FILES['pic']['name'];
+        //Stores the filetype e.g image/jpeg
+        $imagetype = $_FILES['pic']['type'];
+        //Stores any error codes from the upload.
+        $imageerror = $_FILES['pic']['error'];
+        //Stores the tempname as it is given by the host when uploaded.
+        $imagetemp = $_FILES['pic']['tmp_name'];
+
+        //The path you wish to upload the image to
+        $imagePath = "C:/wamp/www/basico_colegio/web/fotos_personas";
+
+        if(is_uploaded_file($imagetemp)) {
+            if(move_uploaded_file($imagetemp, $imagePath . $imagename)) {
+                echo "Sussecfully uploaded your image.";
+            }
+            else {
+                echo "Failed to move your image.";
+            }
+        }
+        else {
+            echo "Failed to upload your image.";
+        }
+    }
     /**
      * Updates an existing Tutor model.
      * If update is successful, the browser will be redirected to the 'view' page.
@@ -219,12 +247,39 @@ class TutorController extends Controller
 
         if ($tutor->load(Yii::$app->request->post()) && $persona->load(Yii::$app->request->post()) && Model::validateMultiple([$persona, $tutor]) ) {
             $persona->save();
+            $foto = $persona->foto;
+            $image = $_POST['foto'];
+            //Stores the filename as it was on the client computer.
+            $imagename = $_FILES['foto']['name'];
+            //Stores the filetype e.g image/jpeg
+            $imagetype = $_FILES['foto']['type'];
+            //Stores any error codes from the upload.
+            $imageerror = $_FILES['foto']['error'];
+            //Stores the tempname as it is given by the host when uploaded.
+            $imagetemp = $_FILES['foto']['tmp_name'];
+
+            //The path you wish to upload the image to
+            $imagePath = "C:/wamp/www/basico_colegio/web/fotos_personas";
+
+            if(is_uploaded_file($imagetemp)) {
+                if(move_uploaded_file($imagetemp, $imagePath . $imagename)) {
+                    echo "Sussecfully uploaded your image.";
+                }
+                else {
+                    echo "Failed to move your image.";
+                }
+            }
+            else {
+                echo "Failed to upload your image.";
+            }
             $tutor->save();
-            return $this->redirect(['view', 'id_tutor' => $tutor->id_tutor, 'id_persona' => $tutor->id_persona]);
+            //return $this->redirect(['view', 'id_tutor' => $tutor->id_tutor, 'id_persona' => $tutor->id_persona]);
         } else {
             return $this->render('create', ['persona' => $persona,'tutor' => $tutor,]);
         }
+
     }
+
 
     /**
      * Deletes an existing Tutor model.

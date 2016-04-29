@@ -1,5 +1,6 @@
 <?php
 
+use dosamigos\datepicker\DatePicker;
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
@@ -26,13 +27,23 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'celular')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'fecha_nacimiento')->textInput() ?>
+    <?php // echo $form->field($model, 'fecha_nacimiento')->textInput() ?>
 
-    <?= $form->field($model, 'foto')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'fecha_nacimiento')->widget(
+        DatePicker::className(), [
+        'inline' => false,
+        'clientOptions' => [
+            'autoclose' => true,
+            'format' => 'yyyy-mm-dd',
+            'todayHighlight' => true,
+        ]
+    ]);?>
+
+    <?= $form->field($model, 'foto')->fileInput() ?>
 
     <?= $form->field($model, 'localidad')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'provinicia')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'provincia')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'codigo_postal')->textInput() ?>
 

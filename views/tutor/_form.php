@@ -2,6 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use dosamigos\datepicker\DatePicker;
 
 /* @var $this yii\web\View */
 /* @var $tutor app\models\Tutor */
@@ -11,7 +12,7 @@ use yii\widgets\ActiveForm;
 
 <div class="tutor-form">
 
-    <?php $form = ActiveForm::begin(); ?>
+    <?php $form = ActiveForm::begin(['options' => ['enctype' => 'multipart/form-data']]); ?>
 
     <?= $form->field($persona, 'nombre')->textInput(['maxlength' => true]) ?>
 
@@ -27,7 +28,19 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($persona, 'celular')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($persona, 'fecha_nacimiento')->textInput() ?>
+    <?php //echo $form->field($persona, 'fecha_nacimiento')->textInput() ?>
+    <?= $form->field($persona, 'fecha_nacimiento')->widget(
+        DatePicker::className(), [
+        // inline too, not bad
+        'inline' => false,
+        // modify template for custom rendering
+        //'value' => $persona->fecha_nacimiento,
+        'clientOptions' => [
+            'autoclose' => true,
+            'format' => 'yyyy-mm-dd',
+            'todayHighlight' => true,
+        ]
+    ]);?>
 
     <?= $form->field($persona, 'foto')->fileInput() ?>
 

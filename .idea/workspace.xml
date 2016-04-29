@@ -2,25 +2,254 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e31e0d29-6c21-4f19-9914-946f1521dee2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/materialize.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/materialize.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/AppAsset.php" afterPath="$PROJECT_DIR$/assets/AppAsset.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Persona.php" afterPath="$PROJECT_DIR$/models/Persona.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/PersonaSearch.php" afterPath="$PROJECT_DIR$/models/PersonaSearch.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Tutor.php" afterPath="$PROJECT_DIR$/models/Tutor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/demo_head.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/markup_component.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/markup_daterange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/markup_inline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/markup_input.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/option_calendarweeks.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/option_clearbtn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/option_daysofweekdisabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/option_enddate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/option_language.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/option_multidate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/option_startdate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/option_todaybtn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/option_todayhighlight.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_static/screenshots/option_weekstart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/less/.csslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/.jscsrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/grunt/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/keyboard_navigation/2011.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/mouse_navigation/2011.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/keyboard_navigation/2012.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/mouse_navigation/2012.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/src/DatePicker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/src/DatePickerAsset.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/src/DatePickerLanguageAsset.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/src/DatePickerTrait.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/src/DateRangePicker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/src/DateRangePickerAsset.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/InputFile.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/keyboard_navigation/all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/mouse_navigation/all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.az.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.az.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.bg.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.bs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.bs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ca.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.cs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/css/bootstrap-datepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.cy.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.da.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.de.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.el.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.en-GB.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.en-GB.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.es.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.et.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.eu.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fa.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fi.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.fo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fo.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.fr-CH.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fr-CH.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.fr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.gl.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.he.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.hr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.hu.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.hy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.hy.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.id.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.is.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.it-CH.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.it-CH.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.it.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ja.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/js/bootstrap-datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/bootstrap-datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.ka.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ka.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.kh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.kh.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.kk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.kk.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.kr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.kr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.lt.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.lv.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.me.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.me.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.mk.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ms.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.nb.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.nl-BE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.nl-BE.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.nl.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.no.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.pl.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt-BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.pt-BR.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.pt.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ro.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs-latin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.rs-latin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.rs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.rs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.ru.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sk.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sl.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sq.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.sr-latin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sr-latin.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/css/bootstrap-datepicker.standalone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/css/bootstrap-datepicker.standalone.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sv.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.sw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.sw.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.th.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.tr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.uk.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.vi.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-CN.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/locales/bootstrap-datepicker.zh-TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/locales/bootstrap-datepicker.zh-TW.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/css/bootstrap-datepicker3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/css/bootstrap-datepicker3.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/css/bootstrap-datepicker3.standalone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/dist/css/bootstrap-datepicker3.standalone.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/src/assets/css/bootstrap-daterangepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/build/build.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/build/build3.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/build/build_standalone.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/build/build_standalone3.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/calendar-weeks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/script/common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/script/common.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/conf.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/assets/coverage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/data-api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/less/datepicker.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/less/datepicker3.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/script/debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/demo_head.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/events.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/events.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/formats.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/script/html-imports.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/i18n.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/index.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/inline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/assets/jquery-1.7.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/keyboard.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/make.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/markup.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/markup_component.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/markup_daterange.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/markup_inline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/markup_input.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/methods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/methods.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/assets/mock.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/noconflict.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/option_calendarweeks.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/option_clearbtn.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/option_daysofweekdisabled.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/option_enddate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/option_language.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/option_multidate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/option_startdate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/option_todaybtn.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/option_todayhighlight.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/option_weekstart.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/suites/options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/options.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/assets/qunit-logging.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/assets/qunit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/assets/qunit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/requirements.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/docs/_screenshots/script/screenshot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/tests.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/tests/assets/utils.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/TutorController.php" afterPath="$PROJECT_DIR$/controllers/TutorController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/UsersController.php" afterPath="$PROJECT_DIR$/controllers/UsersController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/View.php" afterPath="$PROJECT_DIR$/vendor/yiisoft/yii2/web/View.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/persona/_form.php" afterPath="$PROJECT_DIR$/views/persona/_form.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/tutor/_form.php" afterPath="$PROJECT_DIR$/views/tutor/_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/persona/_search.php" afterPath="$PROJECT_DIR$/views/persona/_search.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/tutor/create.php" afterPath="$PROJECT_DIR$/views/tutor/create.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/persona/index.php" afterPath="$PROJECT_DIR$/views/persona/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/tutor/index.php" afterPath="$PROJECT_DIR$/views/tutor/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/users/index.php" afterPath="$PROJECT_DIR$/views/users/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layouts/main.php" afterPath="$PROJECT_DIR$/views/layouts/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" afterPath="$PROJECT_DIR$/vendor/yiisoft/extensions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/persona/update.php" afterPath="$PROJECT_DIR$/views/persona/update.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/persona/view.php" afterPath="$PROJECT_DIR$/views/persona/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/tutor/view.php" afterPath="$PROJECT_DIR$/views/tutor/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/web.php" afterPath="$PROJECT_DIR$/config/web.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="basico_colegio.iws" />
@@ -44,37 +273,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UsersController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/UsersController.php">
+      <file leaf-file-name="_form.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/tutor/_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="25" selection-start="2677" selection-end="2677" vertical-scroll-proportion="3.2692308" vertical-offset="1139" max-vertical-offset="3757">
+            <state line="44" column="51" selection-start="1450" selection-end="1450" vertical-scroll-proportion="1.3122807" vertical-offset="0" max-vertical-offset="1275">
+              <folding>
+                <element signature="e#7#28#0" expanded="true" />
+                <marker date="1461601999892" expanded="true" signature="2136:2195" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/persona/_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="49" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1122">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/persona/view.php">
+      <file leaf-file-name="UploadedFile.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/web/UploadedFile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="765" selection-end="1252" vertical-scroll-proportion="-5.230769" vertical-offset="306" max-vertical-offset="918">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/tutor/view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="41" selection-start="389" selection-end="389" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="1122">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/tutor/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="27" selection-start="1019" selection-end="1019" vertical-scroll-proportion="-16.538462" vertical-offset="148" max-vertical-offset="816">
+            <state line="11" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="4114">
               <folding />
             </state>
           </provider>
@@ -83,32 +306,7 @@
       <file leaf-file-name="TutorController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/TutorController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="1368" selection-end="1368" vertical-scroll-proportion="-18.653847" vertical-offset="467" max-vertical-offset="2414">
-              <folding>
-                <element signature="e#35#58#0" expanded="true" />
-                <element signature="e#1379#1871#0" expanded="false" />
-                <element signature="e#1877#4303#0" expanded="false" />
-                <element signature="e#4309#6304#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/tutor/create.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="61" selection-start="158" selection-end="158" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="425">
-              <folding>
-                <marker date="1461338152695" expanded="true" signature="348:483" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tutor.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/Tutor.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="34" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.6792453" vertical-offset="471" max-vertical-offset="1309">
+            <state line="199" column="66" selection-start="6761" selection-end="6761" vertical-scroll-proportion="0.0" vertical-offset="3383" max-vertical-offset="5440">
               <folding />
             </state>
           </provider>
@@ -130,9 +328,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///dummy.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -160,13 +355,19 @@
         <option value="$PROJECT_DIR$/views/persona/index.php" />
         <option value="$PROJECT_DIR$/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/vendor/yiisoft/yii2/web/View.php" />
-        <option value="$PROJECT_DIR$/views/tutor/_form.php" />
         <option value="$PROJECT_DIR$/views/tutor/create.php" />
-        <option value="$PROJECT_DIR$/controllers/TutorController.php" />
         <option value="$PROJECT_DIR$/views/tutor/view.php" />
         <option value="$PROJECT_DIR$/views/users/index.php" />
         <option value="$PROJECT_DIR$/views/tutor/index.php" />
         <option value="$PROJECT_DIR$/models/Tutor.php" />
+        <option value="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+        <option value="$PROJECT_DIR$/vendor/yiisoft/extensions.php" />
+        <option value="$PROJECT_DIR$/views/persona/update.php" />
+        <option value="$PROJECT_DIR$/views/persona/view.php" />
+        <option value="$PROJECT_DIR$/models/InputFile.php" />
+        <option value="$PROJECT_DIR$/controllers/TutorController.php" />
+        <option value="$PROJECT_DIR$/views/persona/_form.php" />
+        <option value="$PROJECT_DIR$/views/tutor/_form.php" />
       </list>
     </option>
   </component>
@@ -232,6 +433,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basico_colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="basico_colegio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -264,57 +479,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="persona" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basico_colegio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basico_colegio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basico_colegio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basico_colegio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basico_colegio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="basico_colegio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -343,14 +508,15 @@
     <property name="options.searchVisible" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/Apps/2.0/JA8XMLJ6.LW1/L53LZ7X8.LDL/gith..tion_317444273a93ac29_0003.0000_23fac73779ecbb54/GitHub.exe" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\basico_colegio\vendor\bower" />
+      <recent name="C:\wamp\www\basico_colegio\vendor" />
       <recent name="C:\wamp\www\basico_colegio\views\tutor" />
       <recent name="C:\wamp\www\basico_colegio\web\js" />
       <recent name="C:\wamp\www\basico_colegio\web\css" />
-      <recent name="C:\wamp\www\basico_colegio\views\site" />
-      <recent name="C:\wamp\www\basico_colegio\models" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp\www\basico_colegio\views\users" />
@@ -383,11 +549,15 @@
       <created>1460584786396</created>
       <updated>1460584786396</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="_form tutor">
+      <created>1461368199766</created>
+      <updated>1461368199766</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -395,21 +565,21 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22109374" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21015625" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31811023" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37952757" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3808752" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31811023" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -425,7 +595,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="prueba" />
-    <option name="LAST_COMMIT_MESSAGE" value="prueba" />
+    <MESSAGE value="_form tutor" />
+    <option name="LAST_COMMIT_MESSAGE" value="_form tutor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -433,59 +604,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.54545456" vertical-offset="300" max-vertical-offset="850" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/grid/GridView.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="6" selection-start="1098" selection-end="1098" vertical-scroll-proportion="1.0885122" vertical-offset="0" max-vertical-offset="9690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2-bootstrap/NavBar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="33" selection-start="3581" selection-end="3581" vertical-scroll-proportion="0.44821092" vertical-offset="1428" max-vertical-offset="2754" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/widgets/ActiveForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="275" column="5" selection-start="11021" selection-end="11021" vertical-scroll-proportion="0.3804143" vertical-offset="4286" max-vertical-offset="6987">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/site/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="105" selection-start="1276" selection-end="1276" vertical-scroll-proportion="-12.269231" vertical-offset="276" max-vertical-offset="884" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Alumno.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="28" selection-start="708" selection-end="708" vertical-scroll-proportion="0.8125" vertical-offset="0" max-vertical-offset="2040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Rol.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="10" selection-start="697" selection-end="697" vertical-scroll-proportion="0.5" vertical-offset="459" max-vertical-offset="1020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/web/IdentityInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="10" selection-start="1185" selection-end="1185" vertical-scroll-proportion="0.3125" vertical-offset="578" max-vertical-offset="1734" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/users/_search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="46" selection-start="631" selection-end="631" vertical-scroll-proportion="0.7205882" vertical-offset="84" max-vertical-offset="748" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/validators/CompareValidator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="68" selection-start="1340" selection-end="1340" vertical-scroll-proportion="0.17210145" vertical-offset="415" max-vertical-offset="4097" />
@@ -513,11 +631,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/FormRegister.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="14" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.12521441" vertical-offset="437" max-vertical-offset="1122">
-          <folding>
-            <element signature="e#30#38#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="30" column="14" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.12521441" vertical-offset="437" max-vertical-offset="1122" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/db/BaseActiveRecord.php">
@@ -534,35 +648,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/Users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="40" selection-start="371" selection-end="371" vertical-scroll-proportion="0.5747331" vertical-offset="0" max-vertical-offset="1088">
-          <folding>
-            <element signature="e#378#408#0" expanded="false" />
-            <element signature="e#489#519#0" expanded="false" />
-            <element signature="e#848#878#0" expanded="false" />
-            <element signature="e#1218#1264#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="19" column="40" selection-start="371" selection-end="371" vertical-scroll-proportion="0.5747331" vertical-offset="0" max-vertical-offset="1088" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/UsersSearch.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="31" selection-start="239" selection-end="239" vertical-scroll-proportion="0.27224198" vertical-offset="0" max-vertical-offset="1258">
-          <folding />
-        </state>
+        <state line="12" column="31" selection-start="239" selection-end="239" vertical-scroll-proportion="0.27224198" vertical-offset="0" max-vertical-offset="1258" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="22" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.88351256" vertical-offset="0" max-vertical-offset="3570">
-          <folding>
-            <element signature="e#280#730#0" expanded="false" />
-            <element signature="e#1441#1471#0" expanded="false" />
-            <element signature="e#2005#2117#0" expanded="false" />
-            <element signature="e#2627#2657#0" expanded="false" />
-            <element signature="e#2766#2796#0" expanded="false" />
-            <element signature="e#2923#2953#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="44" column="22" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.88351256" vertical-offset="0" max-vertical-offset="3570" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/site.css">
@@ -600,11 +696,6 @@
         <state line="20" column="10" selection-start="398" selection-end="398" vertical-scroll-proportion="0.48398575" vertical-offset="0" max-vertical-offset="562" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/persona/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/users/update.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="22" selection-start="968" selection-end="968" vertical-scroll-proportion="0.7580071" vertical-offset="220" max-vertical-offset="782" />
@@ -612,11 +703,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/FormUpdate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="103" selection-end="106" vertical-scroll-proportion="0.21174377" vertical-offset="0" max-vertical-offset="562">
-          <folding>
-            <element signature="e#697#1067#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="8" column="14" selection-start="103" selection-end="106" vertical-scroll-proportion="0.21174377" vertical-offset="0" max-vertical-offset="562" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/users/view.php">
@@ -629,16 +716,9 @@
         <state line="40" column="50" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.5831904" vertical-offset="340" max-vertical-offset="1377" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/persona/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="29" selection-start="0" selection-end="1538" vertical-scroll-proportion="0.1491228" vertical-offset="0" max-vertical-offset="935" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/web/View.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="568" column="20" selection-start="20785" selection-end="20785" vertical-scroll-proportion="0.56842107" vertical-offset="9213" max-vertical-offset="9843">
-          <folding />
-        </state>
+        <state line="568" column="20" selection-start="20785" selection-end="20785" vertical-scroll-proportion="0.56842107" vertical-offset="9213" max-vertical-offset="9843" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/users/create.php">
@@ -653,113 +733,145 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/base/Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="888" column="27" selection-start="33568" selection-end="33568" vertical-scroll-proportion="0.34736842" vertical-offset="14694" max-vertical-offset="17051">
-          <folding />
-        </state>
+        <state line="888" column="27" selection-start="33568" selection-end="33568" vertical-scroll-proportion="0.34736842" vertical-offset="14694" max-vertical-offset="17051" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="230" column="33" selection-start="7594" selection-end="7612" vertical-scroll-proportion="-0.26243567" vertical-offset="3910" max-vertical-offset="5219">
-          <folding />
-        </state>
+        <state line="230" column="33" selection-start="7594" selection-end="7612" vertical-scroll-proportion="-0.26243567" vertical-offset="3910" max-vertical-offset="5219" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/RolController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="69" selection-start="1985" selection-end="1998" vertical-scroll-proportion="0.6792453" vertical-offset="930" max-vertical-offset="2074">
-          <folding />
-        </state>
+        <state line="83" column="69" selection-start="1985" selection-end="1998" vertical-scroll-proportion="0.6792453" vertical-offset="930" max-vertical-offset="2074" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/rol/_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="47" selection-start="385" selection-end="385" vertical-scroll-proportion="0.47719297" vertical-offset="0" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/tutor/_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="99" selection-start="1685" selection-end="1753" vertical-scroll-proportion="1.4912281" vertical-offset="0" max-vertical-offset="1054">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/persona/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="765" selection-end="1252" vertical-scroll-proportion="-5.230769" vertical-offset="306" max-vertical-offset="918">
-          <folding />
-        </state>
+        <state line="17" column="47" selection-start="385" selection-end="385" vertical-scroll-proportion="0.47719297" vertical-offset="0" max-vertical-offset="570" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/tutor/create.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="61" selection-start="158" selection-end="158" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="425">
-          <folding>
-            <marker date="1461338152695" expanded="true" signature="348:483" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="25" selection-start="2677" selection-end="2677" vertical-scroll-proportion="3.2692308" vertical-offset="1139" max-vertical-offset="3757">
-          <folding />
-        </state>
+        <state line="8" column="61" selection-start="158" selection-end="158" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="425" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/base/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="374" column="20" selection-start="14540" selection-end="14540" vertical-scroll-proportion="0.34819898" vertical-offset="6087" max-vertical-offset="8789">
+        <state line="374" column="20" selection-start="14540" selection-end="14540" vertical-scroll-proportion="0.34819898" vertical-offset="6087" max-vertical-offset="8789" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/users/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="31" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.6227758" vertical-offset="262" max-vertical-offset="867" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Tutor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="27" selection-start="557" selection-end="557" vertical-scroll-proportion="-2.1538463" vertical-offset="471" max-vertical-offset="1309" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/2amigos/yii2-date-picker-widget/src/assets/css/bootstrap-daterangepicker.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/extensions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="14" selection-start="53" selection-end="53" vertical-scroll-proportion="-1.3574219" vertical-offset="763" max-vertical-offset="1275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_psr4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="774" selection-end="774" vertical-scroll-proportion="0.54221386" vertical-offset="0" max-vertical-offset="533" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/bower/bootstrap-datepicker/js/.jscsrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476" />
+      </provider>
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/tutor/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="31" selection-start="1495" selection-end="1495" vertical-scroll-proportion="0.6880734" vertical-offset="475" max-vertical-offset="1122" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/persona/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="20" selection-start="926" selection-end="926" vertical-scroll-proportion="1.0284698" vertical-offset="0" max-vertical-offset="901" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/validators/ImageValidator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="0.33116883" vertical-offset="0" max-vertical-offset="3791" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/validators/FileValidator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="188" selection-end="188" vertical-scroll-proportion="-4.305195" vertical-offset="1428" max-vertical-offset="7667" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/persona/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="588" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/InputFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="0.2064057" vertical-offset="3" max-vertical-offset="782" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/tutor/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="27" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.6743772" vertical-offset="199" max-vertical-offset="816" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="25" selection-start="2677" selection-end="2677" vertical-scroll-proportion="-0.1457976" vertical-offset="1139" max-vertical-offset="3757" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/persona/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="14" selection-start="857" selection-end="857" vertical-scroll-proportion="0.84562606" vertical-offset="0" max-vertical-offset="918" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/persona/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="26" selection-start="124" selection-end="124" vertical-scroll-proportion="0.20411664" vertical-offset="0" max-vertical-offset="583" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/web/UploadedFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="4114">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/TutorController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="1368" selection-end="1368" vertical-scroll-proportion="-18.653847" vertical-offset="467" max-vertical-offset="2414">
+        <state line="199" column="66" selection-start="6761" selection-end="6761" vertical-scroll-proportion="0.0" vertical-offset="3383" max-vertical-offset="5440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/persona/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="49" selection-start="1218" selection-end="1218" vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/tutor/_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="51" selection-start="1450" selection-end="1450" vertical-scroll-proportion="1.3122807" vertical-offset="0" max-vertical-offset="1275">
           <folding>
-            <element signature="e#35#58#0" expanded="true" />
-            <element signature="e#1379#1871#0" expanded="false" />
-            <element signature="e#1877#4303#0" expanded="false" />
-            <element signature="e#4309#6304#0" expanded="false" />
+            <element signature="e#7#28#0" expanded="true" />
+            <marker date="1461601999892" expanded="true" signature="2136:2195" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/tutor/view.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="41" selection-start="389" selection-end="389" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="1122">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/persona/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="20" selection-start="961" selection-end="961" vertical-scroll-proportion="0.6049822" vertical-offset="255" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/users/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="31" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.6227758" vertical-offset="262" max-vertical-offset="867">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/tutor/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="27" selection-start="1019" selection-end="1019" vertical-scroll-proportion="-16.538462" vertical-offset="148" max-vertical-offset="816">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Tutor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="34" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.6792453" vertical-offset="471" max-vertical-offset="1309">
-          <folding />
         </state>
       </provider>
     </entry>
