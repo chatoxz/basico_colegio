@@ -14,7 +14,19 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'nombre')->textInput(['maxlength' => true]) ?>
 
+    <?= $form->field($model, 'sigla')->textInput(['maxlength' => true]) ?>
+
     <?= $form->field($model, 'cuota')->textInput() ?>
+
+    <?= $form->field($model, 'domicilio')->textInput(['maxlength' => true]) ?>
+
+    <?= $form->field($model, 'localidad')->textInput(['maxlength' => true]) ?>
+
+    <?= $form->field($model, 'telefono')->textInput(['maxlength' => true]) ?>
+
+    <?= $form->field($model, 'email')->textInput(['maxlength' => true]) ?>
+
+    <?= $form->field($model, 'web')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'observacion')->textInput(['maxlength' => true]) ?>
 
