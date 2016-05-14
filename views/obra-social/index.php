@@ -27,8 +27,14 @@ $this->params['breadcrumbs'][] = $this->title;
 
             'id_obra_social',
             'nombre',
+            'sigla',
             'cuota',
-            'observacion',
+            'domicilio',
+            // 'localidad',
+            // 'telefono',
+            // 'email:email',
+            // 'web',
+            // 'observacion',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

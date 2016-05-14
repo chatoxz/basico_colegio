@@ -30,7 +30,13 @@ $this->params['breadcrumbs'][] = $this->title;
         'attributes' => [
             'id_obra_social',
             'nombre',
+            'sigla',
             'cuota',
+            'domicilio',
+            'localidad',
+            'telefono',
+            'email:email',
+            'web',
             'observacion',
         ],
     ]) ?>
