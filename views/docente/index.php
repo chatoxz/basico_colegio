@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('Create Docente', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Crear Docente', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?= GridView::widget([
@@ -24,9 +24,14 @@ $this->params['breadcrumbs'][] = $this->title;
         'filterModel' => $searchModel,
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
-
             'id_docente',
             'id_persona',
+            [
+                //hace referencia a  public function attributeLabels()
+                'attribute'=>'id_persona',
+                'label'=>'Nombre',
+                'value'=>'idPersona.nombre',
+            ],
             'numero_boleta',
             'cargo',
             'fecha_ingreso',
