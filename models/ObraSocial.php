@@ -9,7 +9,13 @@ use Yii;
  *
  * @property integer $id_obra_social
  * @property string $nombre
- * @property integer $cuota
+ * @property string $sigla
+ * @property double $cuota
+ * @property string $domicilio
+ * @property string $localidad
+ * @property string $telefono
+ * @property string $email
+ * @property string $web
  * @property string $observacion
  *
  * @property Alumno[] $alumnos
@@ -30,8 +36,12 @@ class ObraSocial extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['cuota'], 'integer'],
-            [['nombre', 'observacion'], 'string', 'max' => 255]
+            [['nombre'], 'required'],
+            [['cuota'], 'number'],
+            [['nombre', 'observacion'], 'string', 'max' => 255],
+            [['sigla', 'domicilio', 'localidad', 'email'], 'string', 'max' => 45],
+            [['telefono'], 'string', 'max' => 20],
+            [['web'], 'string', 'max' => 100]
         ];
     }
 
@@ -43,7 +53,13 @@ class ObraSocial extends \yii\db\ActiveRecord
         return [
             'id_obra_social' => 'Id Obra Social',
             'nombre' => 'Nombre',
+            'sigla' => 'Sigla',
             'cuota' => 'Cuota',
+            'domicilio' => 'Domicilio',
+            'localidad' => 'Localidad',
+            'telefono' => 'Telefono',
+            'email' => 'Email',
+            'web' => 'Web',
             'observacion' => 'Observacion',
         ];
     }

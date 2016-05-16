@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\Persona;
 use Yii;
 use app\models\Alumno;
 use app\models\AlumnoSearch;
@@ -49,9 +50,9 @@ class AlumnoController extends Controller
      */
     public function actionView($id_alumno, $id_persona)
     {
-        return $this->render('view', [
-            'model' => $this->findModel($id_alumno, $id_persona),
-        ]);
+        $alumno = $this->findModel($id_alumno, $id_persona);
+        $persona = Persona::findOne($id_persona);
+        return $this->render('view', ['persona' => $persona,'alumno' => $alumno,]);
     }
 
     /**
@@ -61,14 +62,18 @@ class AlumnoController extends Controller
      */
     public function actionCreate()
     {
-        $model = new Alumno();
+        $alumno = new Alumno();
+        $persona = new Persona();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id_alumno' => $model->id_alumno, 'id_persona' => $model->id_persona]);
+        if ($alumno->load(Yii::$app->request->post()) && $persona->load(Yii::$app->request->post())) {
+            $persona->save(); // skip validation as model is already validated
+            $alumno->id_persona = Yii::$app->db->getLastInsertID();
+            if($alumno->validate()){
+                $alumno->save();
+            }
+            return $this->redirect(['view', 'id_alumno' => $alumno->id_tutor, 'id_persona' => $alumno->id_persona]);
         } else {
-            return $this->render('create', [
-                'model' => $model,
-            ]);
+            return $this->render('create', ['persona' => $persona,'alumno' => $alumno,]);
         }
     }
 
@@ -81,14 +86,18 @@ class AlumnoController extends Controller
      */
     public function actionUpdate($id_alumno, $id_persona)
     {
-        $model = $this->findModel($id_alumno, $id_persona);
+        $alumno = new Alumno();
+        $persona = new Persona();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id_alumno' => $model->id_alumno, 'id_persona' => $model->id_persona]);
+        if ($alumno->load(Yii::$app->request->post()) && $persona->load(Yii::$app->request->post())) {
+            $persona->save(); // skip validation as model is already validated
+            $alumno->id_persona = Yii::$app->db->getLastInsertID();
+            if($alumno->validate()){
+                $alumno->save();
+            }
+            return $this->redirect(['view', 'id_alumno' => $alumno->id_alumno, 'id_persona' => $alumno->id_persona]);
         } else {
-            return $this->render('update', [
-                'model' => $model,
-            ]);
+            return $this->render('update', ['persona' => $persona,'alumno' => $alumno,]);
         }
     }
 

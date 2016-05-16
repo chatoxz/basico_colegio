@@ -6,7 +6,7 @@ use yii\widgets\DetailView;
 /* @var $this yii\web\View */
 /* @var $model app\models\Docente */
 
-$this->title = $model->id_docente;
+$this->title = $persona->nombre;
 $this->params['breadcrumbs'][] = ['label' => 'Docentes', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
@@ -15,8 +15,8 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Update', ['update', 'id' => $model->id_docente], ['class' => 'btn btn-primary']) ?>
-        <?= Html::a('Delete', ['delete', 'id' => $model->id_docente], [
+        <?= Html::a('Update', ['update', 'id_docente' => $docente->id_docente, 'id_persona' => $docente->id_persona], ['class' => 'btn btn-primary']) ?>
+        <?= Html::a('Delete', ['delete', 'id_docente' => $docente->id_docente, 'id_persona' => $docente->id_persona], [
             'class' => 'btn btn-danger',
             'data' => [
                 'confirm' => 'Are you sure you want to delete this item?',
@@ -26,10 +26,10 @@ $this->params['breadcrumbs'][] = $this->title;
     </p>
 
     <?= DetailView::widget([
-        'model' => $model,
+        'model' => $docente,
         'attributes' => [
-            'id_docente',
-            'id_persona',
+            //'id_docente',
+            //'id_persona',
             'numero_boleta',
             'cargo',
             'fecha_ingreso',
@@ -38,6 +38,27 @@ $this->params['breadcrumbs'][] = $this->title;
             'turno_entrada_salida',
             'observacion',
             'tipo_docente',
+        ],
+    ]) ?>
+    <h1><?= Html::encode("Detalle") ?></h1>
+    <?= DetailView::widget([
+        'model' => $persona,
+        'attributes' => [
+            //'id_persona',
+            'nombre',
+            'apellido',
+            'documento',
+            'tipo_documento',
+            'domicilio',
+            'telefono',
+            'celular',
+            'fecha_nacimiento',
+            'foto',
+            'localidad',
+            'provincia',
+            'codigo_postal',
+            'estado_civil',
+            'observacion',
         ],
     ]) ?>
 

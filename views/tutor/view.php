@@ -37,7 +37,7 @@ $this->params['breadcrumbs'][] = $this->title;
         ],
     ]) ?>
 
-    <h1><?= Html::encode("Descripcion Persona") ?></h1>
+    <h1><?= Html::encode("Detalle ") ?></h1>
     <?= DetailView::widget([
         'model' => $persona,
         'attributes' => [

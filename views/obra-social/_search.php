@@ -19,9 +19,21 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'nombre') ?>
 
+    <?= $form->field($model, 'sigla') ?>
+
     <?= $form->field($model, 'cuota') ?>
 
-    <?= $form->field($model, 'observacion') ?>
+    <?= $form->field($model, 'domicilio') ?>
+
+    <?php // echo $form->field($model, 'localidad') ?>
+
+    <?php // echo $form->field($model, 'telefono') ?>
+
+    <?php // echo $form->field($model, 'email') ?>
+
+    <?php // echo $form->field($model, 'web') ?>
+
+    <?php // echo $form->field($model, 'observacion') ?>
 
     <div class="form-group">
         <?= Html::submitButton('Search', ['class' => 'btn btn-primary']) ?>

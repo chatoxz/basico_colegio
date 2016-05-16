@@ -18,8 +18,9 @@ class ObraSocialSearch extends ObraSocial
     public function rules()
     {
         return [
-            [['id_obra_social', 'cuota'], 'integer'],
-            [['nombre', 'observacion'], 'safe'],
+            [['id_obra_social'], 'integer'],
+            [['nombre', 'sigla', 'domicilio', 'localidad', 'telefono', 'email', 'web', 'observacion'], 'safe'],
+            [['cuota'], 'number'],
         ];
     }
 
@@ -61,6 +62,12 @@ class ObraSocialSearch extends ObraSocial
         ]);
 
         $query->andFilterWhere(['like', 'nombre', $this->nombre])
+            ->andFilterWhere(['like', 'sigla', $this->sigla])
+            ->andFilterWhere(['like', 'domicilio', $this->domicilio])
+            ->andFilterWhere(['like', 'localidad', $this->localidad])
+            ->andFilterWhere(['like', 'telefono', $this->telefono])
+            ->andFilterWhere(['like', 'email', $this->email])
+            ->andFilterWhere(['like', 'web', $this->web])
             ->andFilterWhere(['like', 'observacion', $this->observacion]);
 
         return $dataProvider;

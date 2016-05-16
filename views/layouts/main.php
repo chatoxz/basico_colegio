@@ -51,6 +51,7 @@ AppAsset::register($this);
                     '<li class="divider"></li>',
                 ],
             ],
+            ['label' => 'Docentes', 'url' => ['/docente/index']],
             ['label' => 'Contact', 'url' => ['/site/contact']],
             Yii::$app->user->isGuest ?
                 ['label' => 'Login', 'url' => ['/site/login']] :
