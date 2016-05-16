@@ -2,6 +2,9 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use yii\helpers\ArrayHelper;
+use app\models\Docente;
+use app\models\Persona;
 
 /* @var $this yii\web\View */
 /* @var $model app\models\AulaDocente */
@@ -11,6 +14,19 @@ use yii\widgets\ActiveForm;
 <div class="aula-docente-form">
 
     <?php $form = ActiveForm::begin(); ?>
+
+    <?php
+
+    $persona_docente = Persona::find()->with('docentes')->all();
+    $persona_docente = ArrayHelper::toArray($persona_docente);
+    var_dump($persona_docente);
+    ?>
+    <?= $form->field($model, 'id_docente')->dropDownList(
+        ArrayHelper::map($persona_docente,'id_docente','nombre'),
+        ['prompt'=>'Docentes']
+    ) ?>
+
+
 
     <?= $form->field($model, 'id_docente')->textInput() ?>
 

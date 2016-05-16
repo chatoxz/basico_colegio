@@ -40,6 +40,17 @@ AppAsset::register($this);
             ['label' => 'Personas', 'url' => ['/persona/index']],
             ['label' => 'Tutor', 'url' => ['/tutor/index']],
             ['label' => 'Usuarios', 'url' => ['/users/index']],
+            [
+                'class' => '' ,
+                'label' => 'Aulas',
+                'items' => [
+                    '<li class="divider"></li>',
+                    ['label' => 'Aulas', 'url' => ['/aula/index']],
+                    '<li class="divider"></li>',
+                    ['label' => 'Docentes y Aulas', 'url' => ['/aula-docente/index']],
+                    '<li class="divider"></li>',
+                ],
+            ],
             ['label' => 'Contact', 'url' => ['/site/contact']],
             Yii::$app->user->isGuest ?
                 ['label' => 'Login', 'url' => ['/site/login']] :
