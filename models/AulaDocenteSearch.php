@@ -18,7 +18,9 @@ class AulaDocenteSearch extends AulaDocente
     public function rules()
     {
         return [
-            [['id_aula_docente', 'id_docente', 'id_aula'], 'integer'],
+            [['id_aula_docente',  'id_aula'], 'integer'],
+            [['id_docente'], 'safe'],
+
         ];
     }
 
@@ -59,7 +61,10 @@ class AulaDocenteSearch extends AulaDocente
             'id_docente' => $this->id_docente,
             'id_aula' => $this->id_aula,
         ]);
-
+        $query->joinWith('idDocente');
+        $query->joinWith('idDocente.idPersona');
+        
+        //$query->andFilterWhere(['like', 'persona.nombre' , $this->id_persona]);
         return $dataProvider;
     }
 }

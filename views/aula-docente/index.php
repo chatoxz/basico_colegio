@@ -28,18 +28,18 @@ $this->params['breadcrumbs'][] = $this->title;
             'id_aula_docente',
             [
                 //hace referencia a  public function attributeLabels()
-                'attribute'=>'id_persona',
-                'label'=>'Nombre',
-                'value'=>'idPersona.nombre',
+                'attribute'=>'id_docente',
+                'label'=>'Docente',
+                'value'=>'idDocente.idPersona.nombre',
             ],
-            'id_docente',
+            //'id_docente',
             [
                 //hace referencia a  public function attributeLabels()
                 'attribute'=>'id_aula',
-                'label'=>'Nombre',
-                'value'=>'idPersona.nombre',
+                'label'=>'Aula',
+                'value'=>'idAula.nombre',
             ],
-            'id_aula',
+            //'id_aula',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],

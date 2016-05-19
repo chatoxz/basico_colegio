@@ -19,7 +19,7 @@ $this->params['breadcrumbs'][] = $this->title;
         <?= Html::a('Delete', ['delete', 'id_docente' => $docente->id_docente, 'id_persona' => $docente->id_persona], [
             'class' => 'btn btn-danger',
             'data' => [
-                'confirm' => 'Are you sure you want to delete this item?',
+                'confirm' => 'Esta seguro que desea borrar el docente?',
                 'method' => 'post',
             ],
         ]) ?>
@@ -38,9 +38,10 @@ $this->params['breadcrumbs'][] = $this->title;
             'turno_entrada_salida',
             'observacion',
             'tipo_docente',
+            'observacion',
         ],
     ]) ?>
-    <h1><?= Html::encode("Detalle") ?></h1>
+    <h1><?= Html::encode("Detalle Personal") ?></h1>
     <?= DetailView::widget([
         'model' => $persona,
         'attributes' => [
@@ -58,7 +59,6 @@ $this->params['breadcrumbs'][] = $this->title;
             'provincia',
             'codigo_postal',
             'estado_civil',
-            'observacion',
         ],
     ]) ?>
 

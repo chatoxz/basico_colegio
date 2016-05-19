@@ -37,7 +37,6 @@ class Docente extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['id_persona'], 'required'],
             [['id_persona'], 'integer'],
             [['fecha_ingreso'], 'safe'],
             [['numero_boleta', 'cargo', 'tipo_docente'], 'string', 'max' => 50],

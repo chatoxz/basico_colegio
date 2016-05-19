@@ -2,6 +2,8 @@
 
 namespace app\controllers;
 
+use app\models\Docente;
+use app\models\Persona;
 use Yii;
 use app\models\AulaDocente;
 use app\models\AulaDocenteSearch;
@@ -34,7 +36,8 @@ class AulaDocenteController extends Controller
     {
         $searchModel = new AulaDocenteSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
-
+        
+        
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
@@ -48,9 +51,10 @@ class AulaDocenteController extends Controller
      */
     public function actionView($id)
     {
-        return $this->render('view', [
-            'model' => $this->findModel($id),
-        ]);
+        $aula_docente = $this->findModel($id);
+        $docente = Docente::findOne($aula_docente->id_docente);
+        $persona = Persona::findOne($docente->id_persona);
+        return $this->render('view', ['aula_docente' => $aula_docente,'persona' => $persona,'docente' => $docente,]);        
     }
 
     /**

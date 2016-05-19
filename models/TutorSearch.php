@@ -18,8 +18,8 @@ class TutorSearch extends Tutor
     public function rules()
     {
         return [
-            [['id_tutor', 'id_persona'], 'integer'],
-            [['ocupacion', 'descripcion_ocupacion', 'relacion'], 'safe'],
+            [['id_tutor'], 'integer'],
+            [[ 'id_persona','ocupacion', 'descripcion_ocupacion', 'relacion'], 'safe'],
         ];
     }
 
@@ -57,12 +57,13 @@ class TutorSearch extends Tutor
 
         $query->andFilterWhere([
             'id_tutor' => $this->id_tutor,
-            'id_persona' => $this->id_persona,
         ]);
+        $query->joinWith('idPersona');
 
         $query->andFilterWhere(['like', 'ocupacion', $this->ocupacion])
             ->andFilterWhere(['like', 'descripcion_ocupacion', $this->descripcion_ocupacion])
-            ->andFilterWhere(['like', 'relacion', $this->relacion]);
+            ->andFilterWhere(['like', 'relacion', $this->relacion])
+            ->andFilterWhere(['like', 'persona.nombre' , $this->id_persona]);
 
         return $dataProvider;
     }

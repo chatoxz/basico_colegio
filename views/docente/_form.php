@@ -51,7 +51,6 @@ use dosamigos\datepicker\DatePicker;
 
     <?= $form->field($persona, 'estado_civil')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($persona, 'observacion')->textInput(['maxlength' => true]) ?>
 
 
     <?= $form->field($docente, 'numero_boleta')->textInput(['maxlength' => true]) ?>

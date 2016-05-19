@@ -38,7 +38,8 @@ class TutorController extends Controller
     {
         $searchModel = new TutorSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
-
+        //echo "</br></br></br>";
+        //var_dump($dataProvider);
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
@@ -299,8 +300,7 @@ class TutorController extends Controller
     /**
      * Finds the Tutor model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
-     * @param integer $id_tutor
-     * @param integer $id_persona
+     * @param integer $id
      * @return Tutor the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
