@@ -14,6 +14,6 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <h1>Nuevo Alumno</h1>
 
-    <?= $this->render('_form', ['persona' => $persona,'alumno' => $alumno, 'items' => $items]) ?>
+    <?= $this->render('_form', ['persona' => $persona,'alumno' => $alumno, 'items' => $items, 'os' => $os]) ?>
 
 </div>
