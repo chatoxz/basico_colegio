@@ -14,8 +14,6 @@ use dosamigos\datepicker\DatePicker;
 
     <h2>Datos del Alumno</h2>
     <table class="table" >
-        <tr class="est_selector_table" style="font-style: italic;">
-        </tr>
         <td>
             <?= $form->field($persona, 'nombre')->textInput(['maxlength' => true]) ?>
         </td>
@@ -109,6 +107,20 @@ use dosamigos\datepicker\DatePicker;
         <h2>Asignar aula</h2>
         <td>
                <?php echo  Html::activeDropDownList($alumno,'id_aula',$items , ['class' => 'form-control']) ?>
+               <br>
+               <br>
+               <?= Html::a('Nueva Aula', ['/aula/create'], ['class'=>'btn btn-primary']) ?>
+        </td>
+
+    </table>
+
+    <table class="table" >
+        <h2>Asignar Obra Social</h2>
+        <td>
+               <?php echo  Html::activeDropDownList($alumno,'id_obra_social',$os , ['class' => 'form-control']) ?>
+               <br>
+               <br>
+               <?= Html::a('Nueva Obra Social', ['/obra-social/create'], ['class'=>'btn btn-primary']) ?>
         </td>
 
     </table>

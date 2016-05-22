@@ -3,6 +3,7 @@
 namespace app\controllers;
 
 use app\models\Aula;
+use app\models\ObraSocial;
 use app\models\Persona;
 use Yii;
 use app\models\Alumno;
@@ -67,6 +68,7 @@ class AlumnoController extends Controller
         $alumno = new Alumno();
         $persona = new Persona();
         $items = ArrayHelper::map(Aula::find()->all(), 'id_aula','nombre');
+        $os =  ArrayHelper::map(ObraSocial::find()->all(), 'id_obra_social','nombre');
 
         if ($alumno->load(Yii::$app->request->post()) && $persona->load(Yii::$app->request->post())) {
             echo 'hola';
@@ -78,7 +80,7 @@ class AlumnoController extends Controller
             }
             return $this->redirect(['view', 'id_alumno' => $alumno->id_alumno, 'id_persona' => $alumno->id_persona,]);
         } else {
-            return $this->render('create', ['persona' => $persona,'alumno' => $alumno, 'items'=>$items]);
+            return $this->render('create', ['persona' => $persona,'alumno' => $alumno, 'items'=>$items, 'os' =>$os]);
         }
 
     }
