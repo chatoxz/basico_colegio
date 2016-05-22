@@ -159,7 +159,7 @@ use dosamigos\datepicker\DatePicker;
 
 
     <div class="form-group">
-        <?= Html::submitButton($alumno->isNewRecord ? 'Create' : 'Update', ['class' => $alumno->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
+        <?= Html::submitButton($alumno->isNewRecord ? 'Crear' : 'Actualizar', ['class' => $alumno->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>
