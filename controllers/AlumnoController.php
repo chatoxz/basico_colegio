@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\Aula;
 use app\models\Persona;
 use Yii;
 use app\models\Alumno;
@@ -9,6 +10,7 @@ use app\models\AlumnoSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\helpers\ArrayHelper;
 
 /**
  * AlumnoController implements the CRUD actions for Alumno model.
@@ -64,17 +66,21 @@ class AlumnoController extends Controller
     {
         $alumno = new Alumno();
         $persona = new Persona();
+        $items = ArrayHelper::map(Aula::find()->all(), 'id_aula','nombre');
 
         if ($alumno->load(Yii::$app->request->post()) && $persona->load(Yii::$app->request->post())) {
+            echo 'hola';
             $persona->save(); // skip validation as model is already validated
             $alumno->id_persona = Yii::$app->db->getLastInsertID();
             if($alumno->validate()){
+                echo $alumno->id_persona;
                 $alumno->save();
             }
-            return $this->redirect(['view', 'id_alumno' => $alumno->id_tutor, 'id_persona' => $alumno->id_persona]);
+            return $this->redirect(['view', 'id_alumno' => $alumno->id_alumno, 'id_persona' => $alumno->id_persona,]);
         } else {
-            return $this->render('create', ['persona' => $persona,'alumno' => $alumno,]);
+            return $this->render('create', ['persona' => $persona,'alumno' => $alumno, 'items'=>$items]);
         }
+
     }
 
     /**
