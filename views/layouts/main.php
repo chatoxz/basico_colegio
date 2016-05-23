@@ -17,18 +17,22 @@ AppAsset::register($this);
 <head>
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
+<br>
+<br>
 <body>
 <?php $this->beginBody() ?>
 
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => 'My Company',
-        'brandUrl' => Yii::$app->homeUrl,
+        'brandLabel' => Html::img('/STlogoBlue100.png'),
+        //'brandUrl' => Yii::$app->homeUrl,
+        'brandUrl' => "alumno/index",
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
         ],
@@ -36,23 +40,24 @@ AppAsset::register($this);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
-            ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'Personas', 'url' => ['/persona/index']],
-            ['label' => 'Tutor', 'url' => ['/tutor/index']],
+            //['label' => 'Home', 'url' => ['/site/index']],
+            //['label' => 'Personas', 'url' => ['/persona/index']],
             ['label' => 'Usuarios', 'url' => ['/users/index']],
+            ['label' => 'Alumnos', 'url' => ['/alumno/index']],
             [
                 'class' => '' ,
                 'label' => 'Aulas',
                 'items' => [
-                    '<li class="divider"></li>',
                     ['label' => 'Aulas', 'url' => ['/aula/index']],
-                    '<li class="divider"></li>',
                     ['label' => 'Docentes y Aulas', 'url' => ['/aula-docente/index']],
-                    '<li class="divider"></li>',
+                    //'<li class="divider"></li>',
                 ],
             ],
             ['label' => 'Docentes', 'url' => ['/docente/index']],
-            ['label' => 'Contact', 'url' => ['/site/contact']],
+            ['label' => 'Obra Social', 'url' => ['/obra-social/index']],
+            ['label' => 'Tutor', 'url' => ['/tutor/index']],
+
+            //['label' => 'Contact', 'url' => ['/site/contact']],
             Yii::$app->user->isGuest ?
                 ['label' => 'Login', 'url' => ['/site/login']] :
                 [

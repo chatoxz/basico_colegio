@@ -22,16 +22,50 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
+        'filterModel' => $searchModel,
+        'summary'=>'Listado de Alumnos',
+        'showFooter'=>true,
+        'showHeader' => true,
+        'showOnEmpty'=>true,
+        'emptyCell'=>'-',
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
+            [
+                //hace referencia a  public function attributeLabels()
+                'attribute'=>'id_persona',
+                'label'=>'Nombre',
+                'value'=>'idPersona.nombre',
+            ],
+            [
+                //hace referencia a  public function attributeLabels()
+                'attribute'=>'id_persona',
+                'label'=>'Apellido',
+                'value'=>'idPersona.apellido',
+            ],
+            [
+                //hace referencia a  public function attributeLabels()
+                'attribute'=>'id_persona',
+                'label'=>'Documento',
+                'value'=>'idPersona.documento',
+            ],
+            'numero_acta',
+            [
+                //hace referencia a  public function attributeLabels()
+                'attribute'=>'id_obra_social',
+                'label'=>'Obra Social',
+                'value'=>'idObraSocial.nombre',
+            ],
+            [
+                //hace referencia a  public function attributeLabels()
+                'attribute'=>'id_aula',
+                'label'=>'Aula',
+                'value'=>'idAula.nombre',
+            ],
 
-            'id_alumno',
-            'id_persona',
-            'id_obra_social',
-            'id_aula',
-            'fecha_ingreso',
+            //'fecha_ingreso',
             // 'numero_acta',
             // 'tipo_transporte',
+
             // 'nombre_transporte',
             // 'tel_transporte',
             // 'fecha_vencimiento_certificado',
