@@ -9,13 +9,14 @@ use yii\widgets\ActiveForm;
 ?>
 
 <div class="obra-social-form">
-
+    
+    
     <?php $form = ActiveForm::begin(); ?>
-
-    <?= $form->field($model, 'nombre')->textInput(['maxlength' => true]) ?>
-
+    
+    <?= $form->field($model, 'nombre')->textInput(['maxlength' => 10]) ?>
+     
     <?= $form->field($model, 'sigla')->textInput(['maxlength' => true]) ?>
-
+  
     <?= $form->field($model, 'cuota')->textInput() ?>
 
     <?= $form->field($model, 'domicilio')->textInput(['maxlength' => true]) ?>
@@ -31,7 +32,7 @@ use yii\widgets\ActiveForm;
     <?= $form->field($model, 'observacion')->textInput(['maxlength' => true]) ?>
 
     <div class="form-group">
-        <?= Html::submitButton($model->isNewRecord ? 'Create' : 'Update', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
+        <?= Html::submitButton($model->isNewRecord ? 'Crear' : 'Actualizar', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>
