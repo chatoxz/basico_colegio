@@ -57,13 +57,13 @@ use dosamigos\datepicker\DatePicker;
             ]);?>
         </td>
         <td>
-            <?= $form->field($persona, 'localidad')->textInput(['maxlength' => true]) ?>
+            <?= $form->field($persona, 'localidad')->textInput(['maxlength' => true, 'value' => 'San Miguel de Tucuman']) ?>
         </td>
         <td>
-            <?= $form->field($persona, 'provincia')->textInput(['maxlength' => true]) ?>
+            <?= $form->field($persona, 'provincia')->textInput(['maxlength' => true, 'value' => 'Tucuman']); ?>
         </td>
         <td>
-            <?= $form->field($persona, 'codigo_postal')->textInput(['maxlength' => true]) ?>
+            <?= $form->field($persona, 'codigo_postal')->textInput(['value' => '4000']) ?>
         </td>
     </table>
 
