@@ -41,7 +41,7 @@ use dosamigos\datepicker\DatePicker;
         ]
     ]);?>
 
-    <?= $form->field($persona, 'foto')->fileInput() ?>
+    <?php //echo $form->field($persona, 'foto')->fileInput() ?>
 
     <?= $form->field($persona, 'localidad')->textInput(['maxlength' => true]) ?>
 
@@ -83,7 +83,7 @@ use dosamigos\datepicker\DatePicker;
     
 
     <div class="form-group">
-        <?= Html::submitButton($persona->isNewRecord ? 'Create' : 'Update', ['class' => $persona->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
+        <?= Html::submitButton($persona->isNewRecord ? 'Crear' : 'Actualizar', ['class' => $persona->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>

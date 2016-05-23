@@ -29,8 +29,20 @@ $this->params['breadcrumbs'][] = $this->title;
         'model' => $aula_docente,
         'attributes' => [
             //'id_aula_docente',
-            'id_docente',
-            'id_aula',
+            //'id_aula',
+            //'id_docente',
+            [
+                //hace referencia a  public function attributeLabels()
+                'attribute'=>'id_docente',
+                'label'=>'Docente',
+                'value'=> $persona->nombre,
+            ],
+            [
+                //hace referencia a  public function attributeLabels()
+                'attribute'=>'id_aula',
+                'label'=>'Aula',
+                'value'=>$aula->nombre,
+            ],
         ],
     ]) ?>
 
