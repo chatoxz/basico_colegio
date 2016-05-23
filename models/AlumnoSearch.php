@@ -18,8 +18,8 @@ class AlumnoSearch extends Alumno
     public function rules()
     {
         return [
-            [['id_alumno', 'id_persona', 'id_obra_social', 'id_aula'], 'integer'],
-            [['fecha_ingreso', 'numero_acta', 'tipo_transporte', 'nombre_transporte', 'tel_transporte', 'fecha_vencimiento_certificado', 'fecha_inicio_certificado', 'numero_afiliado'], 'safe'],
+            [['id_alumno'], 'integer'],
+            [['fecha_ingreso', 'numero_acta', 'tipo_transporte', 'nombre_transporte', 'tel_transporte', 'fecha_vencimiento_certificado', 'fecha_inicio_certificado', 'numero_afiliado', 'id_persona', 'id_obra_social', 'id_aula'], 'safe'],
         ];
     }
 
@@ -64,12 +64,16 @@ class AlumnoSearch extends Alumno
             'fecha_vencimiento_certificado' => $this->fecha_vencimiento_certificado,
             'fecha_inicio_certificado' => $this->fecha_inicio_certificado,
         ]);
+        $query->joinWith('idPersona');
+        $query->joinWith('idAula');
+        $query->joinWith('idObraSocial');
 
         $query->andFilterWhere(['like', 'numero_acta', $this->numero_acta])
             ->andFilterWhere(['like', 'tipo_transporte', $this->tipo_transporte])
             ->andFilterWhere(['like', 'nombre_transporte', $this->nombre_transporte])
             ->andFilterWhere(['like', 'tel_transporte', $this->tel_transporte])
-            ->andFilterWhere(['like', 'numero_afiliado', $this->numero_afiliado]);
+            ->andFilterWhere(['like', 'numero_afiliado', $this->numero_afiliado])
+            ->andFilterWhere(['like', 'persona.nombre', $this->id_persona]);
 
         return $dataProvider;
     }

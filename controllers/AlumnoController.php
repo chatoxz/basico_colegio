@@ -8,6 +8,7 @@ use app\models\Persona;
 use Yii;
 use app\models\Alumno;
 use app\models\AlumnoSearch;
+use yii\base\Model;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -94,18 +95,17 @@ class AlumnoController extends Controller
      */
     public function actionUpdate($id_alumno, $id_persona)
     {
-        $alumno = new Alumno();
-        $persona = new Persona();
+        $alumno = $this->findModel($id_alumno, $id_persona);
+        $persona = Persona::findOne($id_persona);
+        $items = ArrayHelper::map(Aula::find()->all(), 'id_aula','nombre');
+        $os =  ArrayHelper::map(ObraSocial::find()->all(), 'id_obra_social','nombre');
 
-        if ($alumno->load(Yii::$app->request->post()) && $persona->load(Yii::$app->request->post())) {
+        if ($alumno->load(Yii::$app->request->post()) && $persona->load(Yii::$app->request->post()) && Model::validateMultiple([$persona, $alumno])) {
             $persona->save(); // skip validation as model is already validated
-            $alumno->id_persona = Yii::$app->db->getLastInsertID();
-            if($alumno->validate()){
-                $alumno->save();
-            }
+            $alumno->save();
             return $this->redirect(['view', 'id_alumno' => $alumno->id_alumno, 'id_persona' => $alumno->id_persona]);
         } else {
-            return $this->render('update', ['persona' => $persona,'alumno' => $alumno,]);
+            return $this->render('update', ['persona' => $persona,'alumno' => $alumno, 'items'=>$items, 'os' =>$os]);
         }
     }
 
