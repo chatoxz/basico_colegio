@@ -6,7 +6,7 @@ use yii\widgets\DetailView;
 /* @var $this yii\web\View */
 /* @var $model app\models\Docente */
 
-$this->title = $model->id_docente;
+$this->title = $persona->nombre." ".$persona->apellido;
 $this->params['breadcrumbs'][] = ['label' => 'Docentes', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
@@ -15,29 +15,49 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Update', ['update', 'id' => $model->id_docente], ['class' => 'btn btn-primary']) ?>
-        <?= Html::a('Delete', ['delete', 'id' => $model->id_docente], [
+        <?= Html::a('Actualizar', ['update', 'id_docente' => $docente->id_docente, 'id_persona' => $docente->id_persona], ['class' => 'btn btn-primary']) ?>
+        <?= Html::a('Borrar', ['delete', 'id_docente' => $docente->id_docente, 'id_persona' => $docente->id_persona], [
             'class' => 'btn btn-danger',
             'data' => [
-                'confirm' => 'Are you sure you want to delete this item?',
+                'confirm' => 'Esta seguro que desea borrar el docente?',
                 'method' => 'post',
             ],
         ]) ?>
     </p>
 
     <?= DetailView::widget([
-        'model' => $model,
+        'model' => $docente,
         'attributes' => [
-            'id_docente',
-            'id_persona',
+            //'id_docente',
+            //'id_persona',
             'numero_boleta',
             'cargo',
             'fecha_ingreso',
             'horarios',
             'turno',
             'turno_entrada_salida',
-            'observacion',
             'tipo_docente',
+            'observacion',
+        ],
+    ]) ?>
+    <h1><?= Html::encode("Detalle Personal") ?></h1>
+    <?= DetailView::widget([
+        'model' => $persona,
+        'attributes' => [
+            //'id_persona',
+            'nombre',
+            'apellido',
+            'documento',
+            'tipo_documento',
+            'domicilio',
+            'telefono',
+            'celular',
+            'fecha_nacimiento',
+            'foto',
+            'localidad',
+            'provincia',
+            'codigo_postal',
+            'estado_civil',
         ],
     ]) ?>
 

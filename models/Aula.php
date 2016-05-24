@@ -41,7 +41,7 @@ class Aula extends \yii\db\ActiveRecord
     {
         return [
             'id_aula' => 'Id Aula',
-            'nombre' => 'Nombre',
+            'nombre' => 'Aula',
             'tipo' => 'Tipo',
         ];
     }

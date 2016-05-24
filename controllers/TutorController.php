@@ -38,7 +38,8 @@ class TutorController extends Controller
     {
         $searchModel = new TutorSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
-
+        //echo "</br></br></br>";
+        //var_dump($dataProvider);
         return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
@@ -247,7 +248,7 @@ class TutorController extends Controller
 
         if ($tutor->load(Yii::$app->request->post()) && $persona->load(Yii::$app->request->post()) && Model::validateMultiple([$persona, $tutor]) ) {
             $persona->save();
-            $foto = $persona->foto;
+            /*$foto = $persona->foto;
             $image = $_POST['foto'];
             //Stores the filename as it was on the client computer.
             $imagename = $_FILES['foto']['name'];
@@ -271,13 +272,12 @@ class TutorController extends Controller
             }
             else {
                 echo "Failed to upload your image.";
-            }
+            }*/
             $tutor->save();
-            //return $this->redirect(['view', 'id_tutor' => $tutor->id_tutor, 'id_persona' => $tutor->id_persona]);
+            return $this->redirect(['view', 'id_tutor' => $tutor->id_tutor, 'id_persona' => $tutor->id_persona]);
         } else {
-            return $this->render('create', ['persona' => $persona,'tutor' => $tutor,]);
+            return $this->render('update', ['persona' => $persona,'tutor' => $tutor,]);
         }
-
     }
 
 
@@ -290,22 +290,23 @@ class TutorController extends Controller
      */
     public function actionDelete($id_tutor, $id_persona)
     {
-        $this->findModel($id_tutor, $id_persona)->delete();
-
+        $this->findModel($id_tutor)->delete();
+        //$id_persona = $this->findModel($id_tutor)->getIdPersona();
+        $persona = Persona::findOne($id_persona);
+        $persona->delete();
         return $this->redirect(['index']);
     }
 
     /**
      * Finds the Tutor model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
-     * @param integer $id_tutor
-     * @param integer $id_persona
+     * @param integer $id
      * @return Tutor the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
-    protected function findModel($id_tutor, $id_persona)
+    protected function findModel($id)
     {
-        if (($model = Tutor::findOne(['id_tutor' => $id_tutor, 'id_persona' => $id_persona])) !== null) {
+        if (($model = Tutor::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');

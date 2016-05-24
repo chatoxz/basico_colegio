@@ -42,9 +42,9 @@ class Alumno extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['id_persona', 'id_obra_social', 'id_aula'], 'required'],
+            [['id_persona', 'id_aula'], 'required'],
             [['id_persona', 'id_obra_social', 'id_aula'], 'integer'],
-            [['fecha_ingreso', 'fecha_vencimiento_certificado', 'fecha_inicio_certificado'], 'safe'],
+            [['fecha_ingreso', 'fecha_vencimiento_certificado', 'fecha_inicio_certificado','id_obra_social'], 'safe'],
             [['numero_acta'], 'string', 'max' => 255],
             [['tipo_transporte', 'nombre_transporte', 'tel_transporte'], 'string', 'max' => 45],
             [['numero_afiliado'], 'string', 'max' => 100]

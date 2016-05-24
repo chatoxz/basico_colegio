@@ -26,18 +26,9 @@ $this->params['breadcrumbs'][] = $this->title;
         ]) ?>
     </p>
 
-    <?= DetailView::widget([
-        'model' => $tutor,
-        'attributes' => [
-            //'id_tutor',
-            //'id_persona',
-            'ocupacion',
-            'descripcion_ocupacion',
-            'relacion',
-        ],
-    ]) ?>
 
-    <h1><?= Html::encode("Descripcion Persona") ?></h1>
+
+    <h1><?= Html::encode("Detalle ") ?></h1>
     <?= DetailView::widget([
         'model' => $persona,
         'attributes' => [
@@ -50,12 +41,22 @@ $this->params['breadcrumbs'][] = $this->title;
             'telefono',
             'celular',
             'fecha_nacimiento',
-            'foto',
+           // 'foto',
             'localidad',
             'provincia',
             'codigo_postal',
             'estado_civil',
             'observacion',
+        ],
+    ]) ?>
+    <?= DetailView::widget([
+        'model' => $tutor,
+        'attributes' => [
+            //'id_tutor',
+            //'id_persona',
+            'ocupacion',
+            'descripcion_ocupacion',
+            'relacion',
         ],
     ]) ?>
 </div>

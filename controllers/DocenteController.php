@@ -2,9 +2,11 @@
 
 namespace app\controllers;
 
+use app\models\Persona;
 use Yii;
 use app\models\Docente;
 use app\models\DocenteSearch;
+use yii\base\Model;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -43,14 +45,15 @@ class DocenteController extends Controller
 
     /**
      * Displays a single Docente model.
-     * @param integer $id
+     * @param integer $id_docente
+     * @param integer $id_persona
      * @return mixed
      */
-    public function actionView($id)
+    public function actionView($id_docente, $id_persona)
     {
-        return $this->render('view', [
-            'model' => $this->findModel($id),
-        ]);
+        $docente = $this->findModel($id_docente, $id_persona);
+        $persona = Persona::findOne($id_persona);
+        return $this->render('view', ['persona' => $persona,'docente' => $docente,]);
     }
 
     /**
@@ -58,48 +61,82 @@ class DocenteController extends Controller
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
+
     public function actionCreate()
     {
-        $model = new Docente();
+        $docente = new Docente();
+        $persona = new Persona();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id_docente]);
+        if ($docente->load(Yii::$app->request->post()) && $persona->load(Yii::$app->request->post())) {
+            $persona->save(); // skip validation as model is already validated
+            $docente->id_persona = Yii::$app->db->getLastInsertID();
+            if($docente->validate()){
+                $docente->save();
+            }
+            return $this->redirect(['view', 'id_docente' => $docente->id_docente, 'id_persona' => $persona->id_persona]);
         } else {
-            return $this->render('create', [
-                'model' => $model,
-            ]);
+            return $this->render('create', ['persona' => $persona,'docente' => $docente,]);
         }
     }
 
     /**
      * Updates an existing Docente model.
      * If update is successful, the browser will be redirected to the 'view' page.
-     * @param integer $id
+     * @param integer $id_docente
+     * @param integer $id_persona
      * @return mixed
      */
-    public function actionUpdate($id)
+    public function actionUpdate($id_docente, $id_persona)
     {
-        $model = $this->findModel($id);
+        $docente = $this->findModel($id_docente, $id_persona);
+        $persona = Persona::findOne($id_persona);
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id_docente]);
+        if ($docente->load(Yii::$app->request->post()) && $persona->load(Yii::$app->request->post()) && Model::validateMultiple([$persona, $docente]) ) {
+            $persona->save();
+            /*$foto = $persona->foto;
+            $image = $_POST['foto'];
+            //Stores the filename as it was on the client computer.
+            $imagename = $_FILES['foto']['name'];
+            //Stores the filetype e.g image/jpeg
+            $imagetype = $_FILES['foto']['type'];
+            //Stores any error codes from the upload.
+            $imageerror = $_FILES['foto']['error'];
+            //Stores the tempname as it is given by the host when uploaded.
+            $imagetemp = $_FILES['foto']['tmp_name'];
+
+            //The path you wish to upload the image to
+            $imagePath = "C:/wamp/www/basico_colegio/web/fotos_personas";
+
+            if(is_uploaded_file($imagetemp)) {
+                if(move_uploaded_file($imagetemp, $imagePath . $imagename)) {
+                    echo "Sussecfully uploaded your image.";
+                }
+                else {
+                    echo "Failed to move your image.";
+                }
+            }
+            else {
+                echo "Failed to upload your image.";
+            }*/
+            $docente->save();
+            return $this->redirect(['view', 'id_docente' => $docente->id_docente, 'id_persona' => $docente->id_persona]);
         } else {
-            return $this->render('update', [
-                'model' => $model,
-            ]);
+            return $this->render('update', ['persona' => $persona,'docente' => $docente,]);
         }
     }
 
     /**
      * Deletes an existing Docente model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
-     * @param integer $id
+     * @param integer $id_docente
+     * @param integer $id_persona
      * @return mixed
      */
-    public function actionDelete($id)
+    public function actionDelete($id_docente, $id_persona)
     {
-        $this->findModel($id)->delete();
-
+        $this->findModel($id_docente)->delete();
+        $persona = Persona::findOne($id_persona);
+        $persona->delete();
         return $this->redirect(['index']);
     }
 

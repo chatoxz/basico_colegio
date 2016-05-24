@@ -6,7 +6,7 @@ use yii\widgets\DetailView;
 /* @var $this yii\web\View */
 /* @var $model app\models\Alumno */
 
-$this->title = $model->id_alumno;
+$this->title = $persona->nombre.' '.$persona->apellido ;
 $this->params['breadcrumbs'][] = ['label' => 'Alumnos', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
@@ -15,8 +15,8 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Update', ['update', 'id_alumno' => $model->id_alumno, 'id_persona' => $model->id_persona], ['class' => 'btn btn-primary']) ?>
-        <?= Html::a('Delete', ['delete', 'id_alumno' => $model->id_alumno, 'id_persona' => $model->id_persona], [
+        <?= Html::a('Actualizar', ['update', 'id_alumno' => $alumno->id_alumno, 'id_persona' => $alumno->id_persona], ['class' => 'btn btn-primary']) ?>
+        <?= Html::a('Borrar', ['delete', 'id_alumno' => $alumno->id_alumno, 'id_persona' => $alumno->id_persona], [
             'class' => 'btn btn-danger',
             'data' => [
                 'confirm' => 'Are you sure you want to delete this item?',
@@ -26,20 +26,34 @@ $this->params['breadcrumbs'][] = $this->title;
     </p>
 
     <?= DetailView::widget([
-        'model' => $model,
+        'model' => $persona,
         'attributes' => [
-            'id_alumno',
-            'id_persona',
-            'id_obra_social',
-            'id_aula',
-            'fecha_ingreso',
+            //'id_persona',
+            'nombre',
+            'apellido',
+            'documento',
+            'domicilio',
+            'tipo_documento',
+            'telefono',
+            'celular',
+            'fecha_nacimiento',
+            //'foto',
+            'localidad',
+            'provincia',
+            //'codigo_postal',
+            //'estado_civil',
+        ],
+    ]) ?>
+
+    <?= DetailView::widget([
+        'model' => $alumno,
+        'attributes' => [
+            'idAula.nombre',
             'numero_acta',
-            'tipo_transporte',
             'nombre_transporte',
             'tel_transporte',
-            'fecha_vencimiento_certificado',
-            'fecha_inicio_certificado',
-            'numero_afiliado',
+           // 'fecha_vencimiento_certificado',
+           // 'fecha_inicio_certificado',
         ],
     ]) ?>
 

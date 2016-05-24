@@ -135,10 +135,10 @@ class SiteController extends Controller
     }
 
     public function actionUser(){
-        return $this->render("index");
+        return $this->redirect("..\alumno\index");
     }
     public function actionAdmin(){
-        return $this->render("index");
+        return $this->redirect("..\alumno\index");
 
     }
 

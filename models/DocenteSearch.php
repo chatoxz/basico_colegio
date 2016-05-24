@@ -18,8 +18,8 @@ class DocenteSearch extends Docente
     public function rules()
     {
         return [
-            [['id_docente', 'id_persona'], 'integer'],
-            [['numero_boleta', 'cargo', 'fecha_ingreso', 'horarios', 'turno', 'turno_entrada_salida', 'observacion', 'tipo_docente'], 'safe'],
+            [['id_docente'], 'integer'],
+            [['id_persona','numero_boleta', 'cargo', 'fecha_ingreso', 'horarios', 'turno', 'turno_entrada_salida', 'observacion', 'tipo_docente'], 'safe'],
         ];
     }
 
@@ -57,9 +57,9 @@ class DocenteSearch extends Docente
 
         $query->andFilterWhere([
             'id_docente' => $this->id_docente,
-            'id_persona' => $this->id_persona,
             'fecha_ingreso' => $this->fecha_ingreso,
         ]);
+        $query->joinWith('idPersona');
 
         $query->andFilterWhere(['like', 'numero_boleta', $this->numero_boleta])
             ->andFilterWhere(['like', 'cargo', $this->cargo])
@@ -67,7 +67,8 @@ class DocenteSearch extends Docente
             ->andFilterWhere(['like', 'turno', $this->turno])
             ->andFilterWhere(['like', 'turno_entrada_salida', $this->turno_entrada_salida])
             ->andFilterWhere(['like', 'observacion', $this->observacion])
-            ->andFilterWhere(['like', 'tipo_docente', $this->tipo_docente]);
+            ->andFilterWhere(['like', 'tipo_docente', $this->tipo_docente])
+            ->andFilterWhere(['like', 'persona.nombre' , $this->id_persona]);
 
         return $dataProvider;
     }
