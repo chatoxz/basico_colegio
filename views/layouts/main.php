@@ -27,7 +27,7 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => 'My Company',
+        'brandLabel' => 'San Tarcisio',
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
             'class' => 'navbar-inverse navbar-fixed-top',
@@ -37,10 +37,10 @@ AppAsset::register($this);
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
             ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'Personas', 'url' => ['/persona/index']],
-            ['label' => 'Tutor', 'url' => ['/tutor/index']],
+            ['label' => 'Alumnos', 'url' => ['/alumno/index']],
+            ['label' => 'Docentes', 'url' => ['/docente/index']],
+            ['label' => 'Obras Sociales', 'url' => ['/obra-social/index']],
             ['label' => 'Usuarios', 'url' => ['/users/index']],
-            ['label' => 'Contact', 'url' => ['/site/contact']],
             Yii::$app->user->isGuest ?
                 ['label' => 'Login', 'url' => ['/site/login']] :
                 [
@@ -63,7 +63,7 @@ AppAsset::register($this);
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
+        <p class="pull-left">&copy; San Tarcisio <?= date('Y') ?></p>
 
         <p class="pull-right"><?= Yii::powered() ?></p>
     </div>
