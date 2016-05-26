@@ -7,8 +7,12 @@ use yii\helpers\Html;
 
 $this->title = 'Actualizar Alumno: ' . ' ' . $persona->nombre.'  '.$persona->apellido;
 $this->params['breadcrumbs'][] = ['label' => 'Alumnos', 'url' => ['index']];
-$this->params['breadcrumbs'][] = ['label' => $alumno->id_alumno, 'url' => ['view', 'id_alumno' => $alumno->id_alumno, 'id_persona' => $persona->id_persona]];
-$this->params['breadcrumbs'][] = 'Update';
+//$this->params['breadcrumbs'][] = ['label' => $alumno->id_alumno, 'url' => ['view', 'id_alumno' => $alumno->id_alumno, 'id_persona' => $persona->id_persona]];
+//$this->params['breadcrumbs'][] = 'Update';
+$this->params['breadcrumbs'][] = 'Actualizar Alumnos';
+
+
+
 ?>
 <div class="alumno-update">
 

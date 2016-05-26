@@ -53,14 +53,14 @@ class Docente extends \yii\db\ActiveRecord
         return [
             'id_docente' => 'Id Docente',
             'id_persona' => 'Id Persona',
-            'numero_boleta' => 'Numero Boleta',
+            'numero_boleta' => 'Número Boleta',
             'cargo' => 'Cargo',
             'fecha_ingreso' => 'Fecha Ingreso',
             'horarios' => 'Horarios',
             'turno' => 'Turno',
-            'turno_entrada_salida' => 'Turno Entrada Salida',
-            'observacion' => 'Observacion',
-            'tipo_docente' => 'Tipo Docente',
+            'turno_entrada_salida' => 'Turno Entrada y Salida',
+            'observacion' => 'Observaciones',
+            'tipo_docente' => 'Tipo de Docente',
         ];
     }
 
