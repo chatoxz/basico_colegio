@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\AulaDocente */
 
-$this->title = 'Actualizar Relacion Aula Docente: ';
+$this->title = 'Actualizar Relacion';
 $this->params['breadcrumbs'][] = ['label' => 'Aula Docentes', 'url' => ['index']];
 $this->params['breadcrumbs'][] = 'Actualizar';
 ?>

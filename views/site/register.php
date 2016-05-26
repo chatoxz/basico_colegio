@@ -21,7 +21,7 @@ $this->params['breadcrumbs'][] = 'Registro';
 ]);
 ?>
     <div class="form-group">
-        <?= $form->field($model, "username")->input("text") ?>
+        <?= $form->field($model, "username")->input("text")->label('Usuario') ?>
     </div>
 
     <!--<div class="form-group">
@@ -29,7 +29,7 @@ $this->params['breadcrumbs'][] = 'Registro';
 </div>-->
 
     <div class="form-group">
-        <?= $form->field($model, "password")->input("password") ?>
+        <?= $form->field($model, "password")->input("password")->label('Contraseña') ?>
     </div>
 
     <div class="form-group">

@@ -5,10 +5,13 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\ObraSocial */
 
-$this->title = 'Update Obra Social: ' . ' ' . $model->id_obra_social;
-$this->params['breadcrumbs'][] = ['label' => 'Obra Socials', 'url' => ['index']];
-$this->params['breadcrumbs'][] = ['label' => $model->id_obra_social, 'url' => ['view', 'id' => $model->id_obra_social]];
-$this->params['breadcrumbs'][] = 'Update';
+$this->title = 'Actualizar Obra Social: ' . ' ' . $model->nombre;
+$this->params['breadcrumbs'][] = ['label' => 'Obra Social', 'url' => ['index']];
+$this->params['breadcrumbs'][] = 'Actualizar Obra Social';
+//$this->params['breadcrumbs'][] = ['label' => $model->nombre, 'url' => ['view', 'nombre' => $model->nombre]];
+
+
+
 ?>
 <div class="obra-social-update">
 

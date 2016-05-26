@@ -2,7 +2,7 @@
 
 return [
     'adminEmail' => 'email.appe@gmail.com',
-    'title' => 'Aplicación Yii',
+    'title' => 'Sistema de Gestión San Tarcisio',
     'salt' => 'fsddsflj38343lj0',
 ];
 

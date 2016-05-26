@@ -2,6 +2,7 @@
 
 namespace app\controllers;
 
+use app\models\Aula;
 use app\models\Docente;
 use app\models\Persona;
 use Yii;
@@ -52,9 +53,10 @@ class AulaDocenteController extends Controller
     public function actionView($id)
     {
         $aula_docente = $this->findModel($id);
+        $aula = Aula::findOne($aula_docente->id_aula);
         $docente = Docente::findOne($aula_docente->id_docente);
         $persona = Persona::findOne($docente->id_persona);
-        return $this->render('view', ['aula_docente' => $aula_docente,'persona' => $persona,'docente' => $docente,]);        
+        return $this->render('view', ['aula_docente' => $aula_docente,'persona' => $persona,'docente' => $docente,'aula' => $aula,]);        
     }
 
     /**

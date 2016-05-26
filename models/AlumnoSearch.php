@@ -73,7 +73,8 @@ class AlumnoSearch extends Alumno
             ->andFilterWhere(['like', 'nombre_transporte', $this->nombre_transporte])
             ->andFilterWhere(['like', 'tel_transporte', $this->tel_transporte])
             ->andFilterWhere(['like', 'numero_afiliado', $this->numero_afiliado])
-            ->andFilterWhere(['like', 'persona.nombre', $this->id_persona]);
+            ->andFilterWhere(['like', 'persona.nombre', $this->id_persona])
+            ->andFilterWhere(['like', 'persona.documento', $this->id_persona]);
 
         return $dataProvider;
     }

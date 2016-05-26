@@ -6,8 +6,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\ObraSocial */
 
-$this->title = 'Create Obra Social';
-$this->params['breadcrumbs'][] = ['label' => 'Obra Socials', 'url' => ['index']];
+$this->title = 'Crear Obra Social';
+$this->params['breadcrumbs'][] = ['label' => 'Obra Social', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="obra-social-create">
