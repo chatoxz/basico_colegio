@@ -38,7 +38,8 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
             //'id_docente',
             //'id_persona',
-            [
+            'fullName',
+            /*[
                 //hace referencia a  public function attributeLabels()
                 'attribute'=>'id_persona',
                 'label'=>'Nombre',
@@ -49,7 +50,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 'attribute'=>'id_persona',
                 'label'=>'Apellido',
                 'value'=>'idPersona.apellido',
-            ],
+            ],*/
             //'numero_boleta',
             'turno',
             'cargo',
