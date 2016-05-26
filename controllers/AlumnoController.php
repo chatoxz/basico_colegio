@@ -119,7 +119,8 @@ class AlumnoController extends Controller
     public function actionDelete($id_alumno, $id_persona)
     {
         $this->findModel($id_alumno, $id_persona)->delete();
-
+        $persona = Persona::findOne($id_persona);
+        $persona->delete();
         return $this->redirect(['index']);
     }
 

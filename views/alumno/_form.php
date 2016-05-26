@@ -109,7 +109,7 @@ use dosamigos\datepicker\DatePicker;
                <?php echo  Html::activeDropDownList($alumno,'id_aula',$items , ['class' => 'form-control']) ?>
                <br>
                <br>
-               <?= Html::a('Nueva Aula', ['/aula/create'], ['class'=>'btn btn-primary']) ?>
+               <?php // echo  Html::a('Nueva Aula', ['/aula/create'], ['class'=>'btn btn-primary']) ?>
         </td>
 
     </table>
@@ -120,10 +120,44 @@ use dosamigos\datepicker\DatePicker;
                <?php echo  Html::activeDropDownList($alumno,'id_obra_social',$os , ['class' => 'form-control']) ?>
                <br>
                <br>
-               <?= Html::a('Nueva Obra Social', ['/obra-social/create'], ['class'=>'btn btn-primary']) ?>
+               <?php //echo Html::a('Nueva Obra Social', ['/obra-social/create'], ['class'=>'btn btn-primary']) ?>
         </td>
 
     </table>
+    <h2>Datos Certificado de Discapacidad</h2>
+    <table class="table" >
+        <td>
+            <?= $form->field($alumno, 'fecha_inicio_certificado')->label('Fecha de Inicio del Certificado')->widget(
+                DatePicker::className(), [
+                // inline too, not bad
+                'inline' => false,
+                // modify template for custom rendering
+                //'value' => $persona->fecha_nacimiento,
+                'clientOptions' => [
+                    'autoclose' => true,
+                    'format' => 'yyyy-mm-dd',
+                    'todayHighlight' => true
+                ]
+            ]);?>
+        </td>
+        <td>
+            <?= $form->field($alumno, 'fecha_vencimiento_certificado')->label('Fecha de vencimiento del Certificado')->widget(
+                DatePicker::className(), [
+                // inline too, not bad
+                'inline' => false,
+                // modify template for custom rendering
+                //'value' => $persona->fecha_nacimiento,
+                'clientOptions' => [
+                    'autoclose' => true,
+                    'format' => 'yyyy-mm-dd',
+                    'todayHighlight' => true
+                ]
+            ]);?>
+            <?php // echo $form->field($alumno, 'fecha_vencimiento de certificado')->textInput(['maxlength' => true])->label('Fecha de fin del certificado') ?>
+        </td>
+    </table>
+    <table class="table" >
+
 
 
     <?php /*

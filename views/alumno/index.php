@@ -61,7 +61,12 @@ $this->params['breadcrumbs'][] = $this->title;
                 'label'=>'Aula',
                 'value'=>'idAula.nombre',
             ],
-
+            [
+                //hace referencia a  public function attributeLabels()
+                'attribute'=>'feche_vencimiento_certificado',
+                'label'=>'Fecha Vencimiento certificado',
+                'value'=>'fecha_vencimiento_certificado',
+            ],
             //'fecha_ingreso',
             // 'numero_acta',
             // 'tipo_transporte',
