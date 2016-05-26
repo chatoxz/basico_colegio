@@ -55,17 +55,12 @@ $this->params['breadcrumbs'][] = $this->title;
                 'label'=>'Obra Social',
                 'value'=>'idObraSocial.nombre',
             ],
+            'fecha_vencimiento_certificado',
             [
                 //hace referencia a  public function attributeLabels()
                 'attribute'=>'id_aula',
                 'label'=>'Aula',
                 'value'=>'idAula.nombre',
-            ],
-            [
-                //hace referencia a  public function attributeLabels()
-                'attribute'=>'feche_vencimiento_certificado',
-                'label'=>'Fecha Vencimiento certificado',
-                'value'=>'fecha_vencimiento_certificado',
             ],
             //'fecha_ingreso',
             // 'numero_acta',
@@ -76,9 +71,11 @@ $this->params['breadcrumbs'][] = $this->title;
             // 'fecha_vencimiento_certificado',
             // 'fecha_inicio_certificado',
             // 'numero_afiliado',
-
-            ['class' => 'yii\grid\ActionColumn'],
+            ['class' => 'yii\grid\ActionColumn',
+             'header' => 'Acciones',
+            ],
         ],
-    ]); ?>
+    ]);
+    ?>
 
 </div>

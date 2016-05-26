@@ -29,7 +29,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
-        'summary'=>'Listado de Docentes',
+        //'summary'=>'Listado de Docentes',
         'showFooter'=>true,
         'showHeader' => true,
         'showOnEmpty'=>true,
@@ -44,18 +44,26 @@ $this->params['breadcrumbs'][] = $this->title;
                 'label'=>'Nombre',
                 'value'=>'idPersona.nombre',
             ],
-            'numero_boleta',
+            [
+                //hace referencia a  public function attributeLabels()
+                'attribute'=>'id_persona',
+                'label'=>'Apellido',
+                'value'=>'idPersona.apellido',
+            ],
+            //'numero_boleta',
+            'turno',
             'cargo',
             //'fecha_ingreso',
-            'horarios',
-            'turno',
+            //'horarios',
+           
             //'turno_entrada_salida',
-            'observacion',
+            //'observacion',
             'tipo_docente',
 
             [
                 'class' => 'yii\grid\ActionColumn',
-                'header'=>'Mod/Detalle/Borrar',
+                //'header'=>'Mod/Detalle/Borrar',
+                'header'=>'Acciones',
                 'headerOptions' => ['width' => '80'],
                 'template' => '{view}{update}{delete}',
                 'buttons' => [
@@ -76,7 +84,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             [
                                 'class' => 'glyphicon glyphicon-trash',
                                 'data' => [
-                                    'confirm' => 'Esta seguro que desesa borrar la relacion?',
+                                    'confirm' => '¿Está segur@ que desesa borrar la relación?',
                                     'method' => 'post',
                                 ],
                             ]) ;

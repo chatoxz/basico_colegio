@@ -121,7 +121,7 @@ use dosamigos\datepicker\DatePicker;
     </table>
 
     <div class="form-group">
-        <?= Html::submitButton($persona->isNewRecord ? 'Create' : 'Update', ['class' => $persona->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
+        <?= Html::submitButton($persona->isNewRecord ? 'Crear' : 'Actualizar', ['class' => $persona->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>

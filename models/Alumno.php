@@ -61,14 +61,14 @@ class Alumno extends \yii\db\ActiveRecord
             'id_persona' => 'Id Persona',
             'id_obra_social' => 'Id Obra Social',
             'id_aula' => 'Id Aula',
-            'fecha_ingreso' => 'Fecha Ingreso',
-            'numero_acta' => 'Numero Acta',
-            'tipo_transporte' => 'Tipo Transporte',
-            'nombre_transporte' => 'Nombre Transporte',
-            'tel_transporte' => 'Tel Transporte',
-            'fecha_vencimiento_certificado' => 'Fecha Vencimiento Certificado',
-            'fecha_inicio_certificado' => 'Fecha Inicio Certificado',
-            'numero_afiliado' => 'Numero Afiliado',
+            'fecha_ingreso' => 'Fecha de Ingreso',
+            'numero_acta' => 'Número Acta',
+            'tipo_transporte' => 'Tipo de Transporte',
+            'nombre_transporte' => 'Nombre de Transporte',
+            'tel_transporte' => 'Teléfono de Transporte',
+            'fecha_vencimiento_certificado' => 'Fecha de Vencimiento Certificado',
+            'fecha_inicio_certificado' => 'Fecha de Inicio Certificado',
+            'numero_afiliado' => 'Número de Afiliado',
         ];
     }
 

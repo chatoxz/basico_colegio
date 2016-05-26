@@ -19,8 +19,8 @@ class ObraSocialSearch extends ObraSocial
     {
         return [
             [['id_obra_social'], 'integer'],
-            [['nombre', 'sigla', 'domicilio', 'localidad', 'telefono', 'email', 'web', 'observacion'], 'safe'],
-            [['cuota'], 'number'],
+            [['nombre', 'sigla', 'domicilio', 'localidad', 'telefono', 'email', 'web','cuota', 'observacion'], 'safe'],
+           // [['cuota'], 'number'],
         ];
     }
 
@@ -68,6 +68,7 @@ class ObraSocialSearch extends ObraSocial
             ->andFilterWhere(['like', 'telefono', $this->telefono])
             ->andFilterWhere(['like', 'email', $this->email])
             ->andFilterWhere(['like', 'web', $this->web])
+            ->andFilterWhere(['like', 'cuota', $this->web])
             ->andFilterWhere(['like', 'observacion', $this->observacion]);
 
         return $dataProvider;

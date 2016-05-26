@@ -37,9 +37,10 @@ class ObraSocial extends \yii\db\ActiveRecord
     {
         return [
             [['nombre','sigla'], 'required'],
-            [['cuota'], 'number'],
+           // [['cuota'], 'number'],
+            [['cuota'], 'string', 'max' => 10],
             [['nombre', 'observacion'], 'string', 'max' => 255],
-            [['sigla', 'domicilio', 'localidad', 'email'], 'string', 'max' => 45],
+            [['sigla', 'domicilio', 'localidad', 'email'], 'string', 'max' => 100],
             [['telefono'], 'string', 'max' => 100],
             [['web'], 'string', 'max' => 100]
         ];
@@ -54,12 +55,12 @@ class ObraSocial extends \yii\db\ActiveRecord
             'id_obra_social' => 'Id Obra Social',
             'nombre' => 'Nombre',
             'sigla' => 'Sigla',
-            'cuota' => 'Cuota',
             'domicilio' => 'Domicilio',
             'localidad' => 'Localidad',
             'telefono' => 'Teléfono',
-            'email' => 'e-mail',
+            'email' => 'E-Mail',
             'web' => 'Página Web',
+            'cuota' => 'Valor de la Cuota',
             'observacion' => 'Observaciones',
         ];
     }

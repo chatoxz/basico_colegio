@@ -6,7 +6,7 @@ use yii\widgets\DetailView;
 /* @var $this yii\web\View */
 /* @var $model app\models\ObraSocial */
 
-$this->title = 'Obra Social: ' . ' ' . $model->nombre;
+$this->title = 'Datos de la Obra Social: ' . ' ' . $model->nombre;
 //$this->title = $model->nombre;
 $this->params['breadcrumbs'][] = ['label' => 'Obra Social', 'url' => ['index']];
 $this->params['breadcrumbs'][] = 'Ver Obra Social';
@@ -16,8 +16,26 @@ $this->params['breadcrumbs'][] = 'Ver Obra Social';
 ?>
 <div class="obra-social-view">
 
-    <h1><?= Html::encode($this->title) ?></h1>
-
+    <!--<h1><?= Html::encode($this->title) ?></h1>-->
+    
+    <h2><?= Html::encode($this->title) ?></h2>
+     <?= DetailView::widget([
+      //  <?= CListView::widget([
+        'model' => $model,
+        'attributes' => [
+            //'id_obra_social',
+            'nombre',
+            'sigla',
+            'domicilio',
+            'localidad',
+            'telefono',
+            'email:email',
+            'web',
+            'cuota',
+            'observacion',
+        ],
+    ]) ?>
+    
     <p>
         <?= Html::a('Actualizar', ['update', 'id' => $model->id_obra_social], ['class' => 'btn btn-primary']) ?>
         <?= Html::a('Eliminar', ['delete', 'id' => $model->id_obra_social], [
@@ -28,23 +46,5 @@ $this->params['breadcrumbs'][] = 'Ver Obra Social';
             ],
         ]) ?>
     </p>
-
-    
-     <?= DetailView::widget([
-      //  <?= CListView::widget([
-        'model' => $model,
-        'attributes' => [
-            //'id_obra_social',
-            'nombre',
-            'sigla',
-            'cuota',
-            'domicilio',
-            'localidad',
-            'telefono',
-            'email:email',
-            'web',
-            'observacion',
-        ],
-    ]) ?>
 
 </div>

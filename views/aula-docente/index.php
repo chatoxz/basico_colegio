@@ -41,7 +41,9 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
             //'id_aula',
 
-            ['class' => 'yii\grid\ActionColumn'],
+            ['class' => 'yii\grid\ActionColumn',
+             'header'=>'Acciones',
+            ],
         ],
     ]); ?>
 
