@@ -84,7 +84,7 @@ $this->params['breadcrumbs'][] = $this->title;
                             [
                                 'class' => 'glyphicon glyphicon-trash',
                                 'data' => [
-                                    'confirm' => '¿Está segur@ que desesa borrar la relación?',
+                                    'confirm' => '¿Está segur@ que desesa borrar el docente?',
                                     'method' => 'post',
                                 ],
                             ]) ;
