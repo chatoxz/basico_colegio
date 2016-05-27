@@ -12,6 +12,7 @@ use app\models\Alumno;
  */
 class AlumnoSearch extends Alumno
 {
+    public $fullName;
     /**
      * @inheritdoc
      */
@@ -19,7 +20,7 @@ class AlumnoSearch extends Alumno
     {
         return [
             [['id_alumno'], 'integer'],
-            [['fecha_ingreso', 'numero_acta', 'tipo_transporte', 'nombre_transporte', 'tel_transporte', 'fecha_vencimiento_certificado', 'fecha_inicio_certificado', 'numero_afiliado', 'id_persona', 'id_obra_social', 'id_aula'], 'safe'],
+            [['fecha_ingreso', 'numero_acta', 'tipo_transporte', 'nombre_transporte', 'tel_transporte', 'fecha_vencimiento_certificado', 'fecha_inicio_certificado', 'numero_afiliado', 'id_persona', 'id_obra_social', 'id_aula','fullName'], 'safe'],
         ];
     }
 
@@ -47,6 +48,28 @@ class AlumnoSearch extends Alumno
             'query' => $query,
         ]);
 
+        $dataProvider->setSort([
+            'attributes'=>[
+                'fullName'=>[
+                    'asc'=>['persona.nombre'=>SORT_ASC, 'persona.apellido'=>SORT_ASC],
+                    'desc'=>['persona.nombre'=>SORT_DESC, 'persona.apellido'=>SORT_DESC],
+                    'label'=>'Full Name',
+                    'default'=>SORT_ASC
+                ],
+                'fecha_ingreso',
+                'numero_acta',
+                'tipo_transporte',
+                'nombre_transporte',
+                'tel_transporte',
+                'fecha_vencimiento_certificado',
+                'fecha_inicio_certificado',
+                'numero_afiliado',
+                'id_persona',
+                'id_obra_social',
+                'id_aula'
+            ]
+        ]);
+
         $this->load($params);
 
         if (!$this->validate()) {
@@ -57,9 +80,6 @@ class AlumnoSearch extends Alumno
 
         $query->andFilterWhere([
             'id_alumno' => $this->id_alumno,
-            'id_persona' => $this->id_persona,
-            'id_obra_social' => $this->id_obra_social,
-            'id_aula' => $this->id_aula,
             'fecha_ingreso' => $this->fecha_ingreso,
             'fecha_vencimiento_certificado' => $this->fecha_vencimiento_certificado,
             'fecha_inicio_certificado' => $this->fecha_inicio_certificado,
@@ -68,13 +88,14 @@ class AlumnoSearch extends Alumno
         $query->joinWith('idAula');
         $query->joinWith('idObraSocial');
 
-        $query->andFilterWhere(['like', 'numero_acta', $this->numero_acta])
-            ->andFilterWhere(['like', 'tipo_transporte', $this->tipo_transporte])
-            ->andFilterWhere(['like', 'nombre_transporte', $this->nombre_transporte])
-            ->andFilterWhere(['like', 'tel_transporte', $this->tel_transporte])
-            ->andFilterWhere(['like', 'numero_afiliado', $this->numero_afiliado])
-            ->andFilterWhere(['like', 'persona.nombre', $this->id_persona])
-            ->andFilterWhere(['like', 'persona.documento', $this->id_persona]);
+        $query->orFilterWhere(['like', 'numero_acta', $this->numero_acta])
+            ->orFilterWhere(['like', 'numero_afiliado', $this->numero_afiliado])
+            ->orFilterWhere(['like', 'persona.nombre', $this->id_persona])
+            ->orFilterWhere(['like', 'persona.documento', $this->id_persona])
+            ->andFilterWhere(['like', 'persona.nombre' , $this->fullName])
+            ->orFilterWhere(['like', 'persona.apellido' , $this->fullName])
+            ->andFilterWhere(['like', 'obra_social.nombre' , $this->id_obra_social])
+            ->andFilterWhere(['like', 'aula.nombre' , $this->id_aula]);
 
         return $dataProvider;
     }

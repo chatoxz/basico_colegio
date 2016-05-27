@@ -28,6 +28,7 @@ use Yii;
  */
 class Alumno extends \yii\db\ActiveRecord
 {
+    public $full_name;
     /**
      * @inheritdoc
      */
@@ -44,7 +45,7 @@ class Alumno extends \yii\db\ActiveRecord
         return [
             [['id_persona', 'id_aula'], 'required'],
             [['id_persona', 'id_obra_social', 'id_aula'], 'integer'],
-            [['fecha_ingreso', 'fecha_vencimiento_certificado', 'fecha_inicio_certificado','id_obra_social'], 'safe'],
+            [['fecha_ingreso', 'fecha_vencimiento_certificado', 'fecha_inicio_certificado','id_obra_social', 'full_name'], 'safe'],
             [['numero_acta'], 'string', 'max' => 255],
             [['tipo_transporte', 'nombre_transporte', 'tel_transporte'], 'string', 'max' => 45],
             [['numero_afiliado'], 'string', 'max' => 100]
@@ -59,6 +60,7 @@ class Alumno extends \yii\db\ActiveRecord
         return [
             'id_alumno' => 'Id Alumno',
             'id_persona' => 'Id Persona',
+            'fullName'=>Yii::t('app', 'Nombre y Apellido'),
             'id_obra_social' => 'Id Obra Social',
             'id_aula' => 'Id Aula',
             'fecha_ingreso' => 'Fecha de Ingreso',
@@ -70,6 +72,10 @@ class Alumno extends \yii\db\ActiveRecord
             'fecha_inicio_certificado' => 'Fecha de Inicio Certificado',
             'numero_afiliado' => 'Número de Afiliado',
         ];
+    }
+
+    public function getFullName() {
+        return $this->idPersona->nombre." ".$this->idPersona->apellido;
     }
 
     /**

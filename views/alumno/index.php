@@ -30,24 +30,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'emptyCell'=>'-',
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
-            [
-                //hace referencia a  public function attributeLabels()
-                'attribute'=>'id_persona',
-                'label'=>'Nombre',
-                'value'=>'idPersona.nombre',
-            ],
-            [
-                //hace referencia a  public function attributeLabels()
-                'attribute'=>'id_persona',
-                'label'=>'Apellido',
-                'value'=>'idPersona.apellido',
-            ],
-            [
-                //hace referencia a  public function attributeLabels()
-                'attribute'=>'id_persona',
-                'label'=>'Documento',
-                'value'=>'idPersona.documento',
-            ],
+            'fullName',
             'numero_acta',
             [
                 //hace referencia a  public function attributeLabels()
