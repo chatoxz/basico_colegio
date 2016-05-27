@@ -91,8 +91,7 @@ class DocenteSearch extends Docente
             ->andFilterWhere(['like', 'tipo_docente', $this->tipo_docente])
             ->andFilterWhere(['like', 'tipo_docente', $this->tipo_docente])
             ->andFilterWhere(['like', 'persona.nombre' , $this->fullName])
-            ->orFilterWhere(['like', 'persona.apellido' , $this->fullName])
-            ;
+            ->orFilterWhere(['like', 'persona.apellido' , $this->fullName]);
 
         return $dataProvider;
     }

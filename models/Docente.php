@@ -22,6 +22,8 @@ use Yii;
  */
 class Docente extends \yii\db\ActiveRecord
 {
+    public $full_name;
+
     /**
      * @inheritdoc
      */
