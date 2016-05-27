@@ -47,12 +47,12 @@ class Users extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'username' => 'Username',
-            'password' => 'Password',
+            'username' => 'Usuario',
+            'password' => 'Contraseña',
             'authKey' => 'Auth Key',
             'accessToken' => 'Access Token',
             'activate' => 'Activate',
-            'id_rol' => 'Id Rol',
+            'id_rol' => 'Rol',
         ];
     }
 

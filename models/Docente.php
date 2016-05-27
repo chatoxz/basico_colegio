@@ -37,7 +37,7 @@ class Docente extends \yii\db\ActiveRecord
     {
         return [
             [['id_persona'], 'integer'],
-            [['fecha_ingreso'], 'safe'],
+            [['fecha_ingreso','full_name'], 'safe'],
             [['numero_boleta', 'cargo', 'tipo_docente'], 'string', 'max' => 50],
             [['horarios', 'observacion'], 'string', 'max' => 255],
             [['turno'], 'string', 'max' => 45],
@@ -53,6 +53,7 @@ class Docente extends \yii\db\ActiveRecord
         return [
             'id_docente' => 'Id Docente',
             'id_persona' => 'Id Persona',
+            'fullName'=>Yii::t('app', 'Nombre y Apellido'),
             'numero_boleta' => 'Número Boleta',
             'cargo' => 'Cargo',
             'fecha_ingreso' => 'Fecha Ingreso',
@@ -62,6 +63,10 @@ class Docente extends \yii\db\ActiveRecord
             'observacion' => 'Observaciones',
             'tipo_docente' => 'Tipo de Docente',
         ];
+    }
+
+    public function getFullName() {
+        return $this->idPersona->nombre." ".$this->idPersona->apellido;
     }
 
     /**

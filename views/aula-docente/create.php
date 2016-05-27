@@ -6,9 +6,9 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\AulaDocente */
 
-$this->title = 'Create Aula Docente';
+$this->title = 'Crear Relacion Docente/Aula';
 $this->params['breadcrumbs'][] = ['label' => 'Aula Docentes', 'url' => ['index']];
-$this->params['breadcrumbs'][] = $this->title;
+//$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="aula-docente-create">
 

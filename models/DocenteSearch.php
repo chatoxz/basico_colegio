@@ -12,6 +12,9 @@ use app\models\Docente;
  */
 class DocenteSearch extends Docente
 {
+
+    public $fullName;
+
     /**
      * @inheritdoc
      */
@@ -19,7 +22,7 @@ class DocenteSearch extends Docente
     {
         return [
             [['id_docente'], 'integer'],
-            [['id_persona','numero_boleta', 'cargo', 'fecha_ingreso', 'horarios', 'turno', 'turno_entrada_salida', 'observacion', 'tipo_docente'], 'safe'],
+            [['id_persona','numero_boleta', 'cargo', 'fecha_ingreso', 'horarios', 'turno', 'turno_entrada_salida', 'observacion', 'tipo_docente','fullName'], 'safe'],
         ];
     }
 
@@ -47,6 +50,24 @@ class DocenteSearch extends Docente
             'query' => $query,
         ]);
 
+        $dataProvider->setSort([
+            'attributes'=>[
+                'fullName'=>[
+                    'asc'=>['nombre'=>SORT_ASC, 'apellido'=>SORT_ASC],
+                    'desc'=>['nombre'=>SORT_DESC, 'apellido'=>SORT_DESC],
+                    'label'=>'Full Name',
+                    'default'=>SORT_ASC
+                ],
+                'numero_boleta',
+                'cargo',
+                'horarios',
+                'turno',
+                'turno_entrada_salida',
+                'observacion',
+                'tipo_docente',
+            ]
+        ]);
+
         $this->load($params);
 
         if (!$this->validate()) {
@@ -68,7 +89,10 @@ class DocenteSearch extends Docente
             ->andFilterWhere(['like', 'turno_entrada_salida', $this->turno_entrada_salida])
             ->andFilterWhere(['like', 'observacion', $this->observacion])
             ->andFilterWhere(['like', 'tipo_docente', $this->tipo_docente])
-            ->andFilterWhere(['like', 'persona.nombre' , $this->id_persona]);
+            ->andFilterWhere(['like', 'tipo_docente', $this->tipo_docente])
+            ->andFilterWhere(['like', 'persona.nombre' , $this->fullName])
+            ->orFilterWhere(['like', 'persona.apellido' , $this->fullName])
+            ;
 
         return $dataProvider;
     }

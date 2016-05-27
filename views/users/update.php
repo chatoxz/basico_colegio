@@ -9,12 +9,12 @@ use app\models\Rol;
 ?>
 
 <?php
-$this->params['breadcrumbs'][] = ['label' => 'Users', 'url' => ['/users/index']];
+$this->params['breadcrumbs'][] = ['label' => 'Usuarios', 'url' => ['/users/index']];
 $this->params['breadcrumbs'][] = ['label' => $model->username, 'url' => ['view', 'id' => $model->id]];
 //$this->params['breadcrumbs'][] = ['Update user: '. $model->id;
 ?>
 
-<h1>Update</h1>
+<h1>Actualizar</h1>
 <?php $form = ActiveForm::begin([
     'method' => 'post',
     'id' => 'formulario',
@@ -24,14 +24,14 @@ $this->params['breadcrumbs'][] = ['label' => $model->username, 'url' => ['view',
 ?>
 
 <div class="form-group">
-    <?= $form->field($model, "username")->input("text") ?>
+    <?= $form->field($model, "username")->label("Nombre de Usuario")->input("text") ?>
 </div>
 
 <div class="form-group">
-    <?= $form->field($model, "password")->input("password") ?>
+    <?= $form->field($model, "password")->label("Contraseña")->input("password") ?>
 </div>
 
-<?= $form->field($model, 'id_rol')->dropDownList(
+<?= $form->field($model, 'id_rol')->label("Rol")->dropDownList(
     ArrayHelper::map(Rol::find()->all(),'id_rol','nombre'),
     ['prompt'=>'Roles'])
 ?>

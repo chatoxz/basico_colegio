@@ -271,7 +271,7 @@ class SiteController extends Controller
                     $model->email = null;
                     $model->password = null;
                     $model->password_repeat = null;*/
-                    $msg = "Enhorabuena, tu usuario ha sido creado.";
+                    $msg = "Tu usuario ha sido creado.";
                 }
                 else
                 {
