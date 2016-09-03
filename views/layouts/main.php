@@ -17,6 +17,7 @@ AppAsset::register($this);
         <meta charset="<?= Yii::$app->charset ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
         <?= Html::csrfMetaTags() ?>
         <title><?= Html::encode($this->title) ?></title>
         <?php $this->head() ?>
@@ -43,6 +44,7 @@ AppAsset::register($this);
                     ['label' => 'Alumnos', 'url' => ['/alumno/index']],
                     ['label' => 'Docentes', 'url' => ['/docente/index']],
                     ['label' => 'Obras Sociales', 'url' => ['/obra-social/index']],
+                    ['label' => 'Facturación', 'url' => ['/factura/index']],
                     [
                         'class' => '',
                         'label' => 'Aulas',

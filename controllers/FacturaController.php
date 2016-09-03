@@ -8,6 +8,7 @@ use app\models\FacturaSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use app\models\AlumnoSearch;
 
 /**
  * FacturaController implements the CRUD actions for Factura model.
@@ -32,7 +33,7 @@ class FacturaController extends Controller
      */
     public function actionIndex()
     {
-        $searchModel = new FacturaSearch();
+        $searchModel = new AlumnoSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -58,16 +59,18 @@ class FacturaController extends Controller
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
-    public function actionCreate()
+    public function actionCreate($id_alumno, $id_persona)
     {
-        $model = new Factura();
+        $alumno = $this->findModel($id_alumno, $id_persona);
+        $persona = Persona::findOne($id_persona);
+        $factura = new Factura();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id_factura]);
+
+        if ($alumno->load(Yii::$app->request->post()) && $persona->load(Yii::$app->request->post()) && Model::validateMultiple([$persona, $alumno]) ) {
+            return $this->redirect(['view', 'id' => $factura->id_factura]);
         } else {
-            return $this->render('create', [
-                'model' => $model,
-            ]);
+            return $this->render('create', ['persona' => $persona,]);
+            //return $this->render('create', ['persona' => $persona,'alumno' => $alumno, 'factura' => $factura]);
         }
     }
 
