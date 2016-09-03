@@ -32,7 +32,7 @@ AppAsset::register($this);
             NavBar::begin([
                 'brandLabel' => Html::img('/STlogoBlue100.png'),
                 //'brandUrl' => Yii::$app->homeUrl,
-                'brandUrl' => "alumno/index",
+                'brandUrl' => "../alumno/index",
                 'options' => [
                     'class' => 'navbar-inverse navbar-fixed-top',
                 ],
